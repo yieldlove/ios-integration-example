@@ -7,19 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11575A2128644A2C0059C904 /* IntegrationExampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11575A2028644A2C0059C904 /* IntegrationExampleAppApp.swift */; };
+		11575A2128644A2C0059C904 /* IntegrationExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11575A2028644A2C0059C904 /* IntegrationExampleApp.swift */; };
 		11575A2328644A2C0059C904 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11575A2228644A2C0059C904 /* ContentView.swift */; };
-		11575A2528644A2D0059C904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11575A2428644A2D0059C904 /* Assets.xcassets */; };
-		11575A2828644A2D0059C904 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11575A2728644A2D0059C904 /* Preview Assets.xcassets */; };
 		F4439958E583E686D5ED7E99 /* Pods_IntegrationExampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDF51410C31C560D62C2131 /* Pods_IntegrationExampleApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11575A1D28644A2C0059C904 /* IntegrationExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntegrationExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		11575A2028644A2C0059C904 /* IntegrationExampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationExampleAppApp.swift; sourceTree = "<group>"; };
+		11575A2028644A2C0059C904 /* IntegrationExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationExampleApp.swift; sourceTree = "<group>"; };
 		11575A2228644A2C0059C904 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		11575A2428644A2D0059C904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		11575A2728644A2D0059C904 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		116DA7A4286455C400C566E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		343F01ADE01225CFB32A50EA /* Pods-IntegrationExampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegrationExampleApp.release.xcconfig"; path = "Target Support Files/Pods-IntegrationExampleApp/Pods-IntegrationExampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		9A4E1E596E5C829A6792E874 /* Pods-IntegrationExampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegrationExampleApp.debug.xcconfig"; path = "Target Support Files/Pods-IntegrationExampleApp/Pods-IntegrationExampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		FFDF51410C31C560D62C2131 /* Pods_IntegrationExampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntegrationExampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,20 +55,11 @@
 		11575A1F28644A2C0059C904 /* IntegrationExampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				11575A2028644A2C0059C904 /* IntegrationExampleAppApp.swift */,
+				116DA7A4286455C400C566E6 /* Info.plist */,
+				11575A2028644A2C0059C904 /* IntegrationExampleApp.swift */,
 				11575A2228644A2C0059C904 /* ContentView.swift */,
-				11575A2428644A2D0059C904 /* Assets.xcassets */,
-				11575A2628644A2D0059C904 /* Preview Content */,
 			);
 			path = IntegrationExampleApp;
-			sourceTree = "<group>";
-		};
-		11575A2628644A2D0059C904 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				11575A2728644A2D0059C904 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		6ED21158D75AEFCB6D18CDDF /* Frameworks */ = {
@@ -88,7 +76,6 @@
 				9A4E1E596E5C829A6792E874 /* Pods-IntegrationExampleApp.debug.xcconfig */,
 				343F01ADE01225CFB32A50EA /* Pods-IntegrationExampleApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,8 +139,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11575A2828644A2D0059C904 /* Preview Assets.xcassets in Resources */,
-				11575A2528644A2D0059C904 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11575A2328644A2C0059C904 /* ContentView.swift in Sources */,
-				11575A2128644A2C0059C904 /* IntegrationExampleAppApp.swift in Sources */,
+				11575A2128644A2C0059C904 /* IntegrationExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,10 +321,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"IntegrationExampleApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = S587T6HBTW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IntegrationExampleApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -366,10 +352,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"IntegrationExampleApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = S587T6HBTW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IntegrationExampleApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
