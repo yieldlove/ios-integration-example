@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		11575A2128644A2C0059C904 /* IntegrationExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11575A2028644A2C0059C904 /* IntegrationExampleApp.swift */; };
 		11575A2328644A2C0059C904 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11575A2228644A2C0059C904 /* ContentView.swift */; };
+		116DA7A628648B6200C566E6 /* PublisherBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116DA7A528648B6200C566E6 /* PublisherBannerView.swift */; };
+		116DA7A82864912A00C566E6 /* ErrorBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116DA7A72864912A00C566E6 /* ErrorBannerView.swift */; };
 		F4439958E583E686D5ED7E99 /* Pods_IntegrationExampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDF51410C31C560D62C2131 /* Pods_IntegrationExampleApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -17,6 +19,8 @@
 		11575A2028644A2C0059C904 /* IntegrationExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationExampleApp.swift; sourceTree = "<group>"; };
 		11575A2228644A2C0059C904 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		116DA7A4286455C400C566E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		116DA7A528648B6200C566E6 /* PublisherBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublisherBannerView.swift; sourceTree = "<group>"; };
+		116DA7A72864912A00C566E6 /* ErrorBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorBannerView.swift; sourceTree = "<group>"; };
 		343F01ADE01225CFB32A50EA /* Pods-IntegrationExampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegrationExampleApp.release.xcconfig"; path = "Target Support Files/Pods-IntegrationExampleApp/Pods-IntegrationExampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		9A4E1E596E5C829A6792E874 /* Pods-IntegrationExampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegrationExampleApp.debug.xcconfig"; path = "Target Support Files/Pods-IntegrationExampleApp/Pods-IntegrationExampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		FFDF51410C31C560D62C2131 /* Pods_IntegrationExampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntegrationExampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,8 +60,10 @@
 			isa = PBXGroup;
 			children = (
 				116DA7A4286455C400C566E6 /* Info.plist */,
+				116DA7A72864912A00C566E6 /* ErrorBannerView.swift */,
 				11575A2028644A2C0059C904 /* IntegrationExampleApp.swift */,
 				11575A2228644A2C0059C904 /* ContentView.swift */,
+				116DA7A528648B6200C566E6 /* PublisherBannerView.swift */,
 			);
 			path = IntegrationExampleApp;
 			sourceTree = "<group>";
@@ -192,7 +198,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				11575A2328644A2C0059C904 /* ContentView.swift in Sources */,
+				116DA7A628648B6200C566E6 /* PublisherBannerView.swift in Sources */,
 				11575A2128644A2C0059C904 /* IntegrationExampleApp.swift in Sources */,
+				116DA7A82864912A00C566E6 /* ErrorBannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

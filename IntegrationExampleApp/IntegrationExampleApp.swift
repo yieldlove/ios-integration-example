@@ -1,10 +1,3 @@
-//
-//  IntegrationExampleAppApp.swift
-//  IntegrationExampleApp
-//
-//  Created by Martin Bednář on 23.06.2022.
-//
-
 import SwiftUI
 
 @main
