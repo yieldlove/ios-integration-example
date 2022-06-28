@@ -1,0 +1,11 @@
+framework module YieldloveExternalConfiguration {
+  umbrella header "YieldloveExternalConfiguration.h"
+
+  export *
+  module * { export * }
+}
+
+module YieldloveExternalConfiguration.Swift {
+    header "YieldloveExternalConfiguration-Swift.h"
+    requires objc
+}
