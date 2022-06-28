@@ -11,9 +11,15 @@ class BannerDelegate: NSObject, YLBannerViewDelegate {
 
     public func bannerViewDidReceiveAd(_ ylBannerView: YLBannerView) {
         let bannerView = ylBannerView.getBannerView()
-        bannerView.center = viewController.view.center         // OPTIONAL: Center the banner in the app view
-        viewController.view.addSubview(bannerView)             // Add banner as a subview
-        Yieldlove.instance.resizeBanner(banner: ylBannerView)  // This line is needed to resize ads that may come from Prebid
+        
+        // OPTIONAL: Center the banner in the app view
+        bannerView.center = viewController.view.center
+        
+        // Add banner as a subview
+        viewController.view.addSubview(bannerView)
+        
+        // This line is needed to resize ads that may come from Prebid
+        Yieldlove.instance.resizeBanner(banner: ylBannerView)
     }
 
     public func bannerView(_ bannerView: YLBannerView, didFailToReceiveAdWithError error: Error) {
