@@ -18,10 +18,12 @@
 		110CCB2D2869EAAF00183F99 /* CriteoPublisherSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110CCB2B2869EAAF00183F99 /* CriteoPublisherSdk.xcframework */; };
 		110CCB2F2869EAAF00183F99 /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110CCB2C2869EAAF00183F99 /* GoogleMobileAds.xcframework */; };
 		110ED4C82869DC6F001A2F51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110ED4C72869DC6F001A2F51 /* AppDelegate.swift */; };
-		110ED4CA2869DC6F001A2F51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110ED4C92869DC6F001A2F51 /* SceneDelegate.swift */; };
 		110ED4CC2869DC6F001A2F51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110ED4CB2869DC6F001A2F51 /* ViewController.swift */; };
 		110ED4CF2869DC6F001A2F51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110ED4CD2869DC6F001A2F51 /* Main.storyboard */; };
 		110ED4D42869DC71001A2F51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110ED4D22869DC71001A2F51 /* LaunchScreen.storyboard */; };
+		118BC1A6286B21ED0050EF31 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118BC1A4286B20DB0050EF31 /* JavaScriptCore.framework */; };
+		118BC1A8286B2FBB0050EF31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BC1A7286B2FBB0050EF31 /* SceneDelegate.swift */; };
+		118BC1AA286B30A70050EF31 /* BannerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BC1A9286B30A70050EF31 /* BannerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,11 +52,13 @@
 		110CCB2C2869EAAF00183F99 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMobileAds.xcframework; path = Dependencies/GoogleMobileAds.xcframework; sourceTree = "<group>"; };
 		110ED4C42869DC6F001A2F51 /* IntegrationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntegrationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		110ED4C72869DC6F001A2F51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		110ED4C92869DC6F001A2F51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		110ED4CB2869DC6F001A2F51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		110ED4CE2869DC6F001A2F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		110ED4D32869DC71001A2F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		110ED4D52869DC71001A2F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		118BC1A4286B20DB0050EF31 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		118BC1A7286B2FBB0050EF31 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		118BC1A9286B30A70050EF31 /* BannerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 				110CCB282869EA7800183F99 /* YieldloveExternalConfiguration.xcframework in Frameworks */,
 				110CCB222869EA7800183F99 /* PromiseKit.xcframework in Frameworks */,
 				110CCB242869EA7800183F99 /* YieldloveAdIntegration.xcframework in Frameworks */,
+				118BC1A6286B21ED0050EF31 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +82,7 @@
 		110CCB1D2869EA7800183F99 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				118BC1A4286B20DB0050EF31 /* JavaScriptCore.framework */,
 				110CCB2B2869EAAF00183F99 /* CriteoPublisherSdk.xcframework */,
 				110CCB2C2869EAAF00183F99 /* GoogleMobileAds.xcframework */,
 				110CCB202869EA7800183F99 /* PrebidMobile.xcframework */,
@@ -107,12 +113,13 @@
 		110ED4C62869DC6F001A2F51 /* IntegrationExample */ = {
 			isa = PBXGroup;
 			children = (
+				118BC1A7286B2FBB0050EF31 /* SceneDelegate.swift */,
 				110ED4C72869DC6F001A2F51 /* AppDelegate.swift */,
-				110ED4C92869DC6F001A2F51 /* SceneDelegate.swift */,
 				110ED4CB2869DC6F001A2F51 /* ViewController.swift */,
 				110ED4CD2869DC6F001A2F51 /* Main.storyboard */,
 				110ED4D22869DC71001A2F51 /* LaunchScreen.storyboard */,
 				110ED4D52869DC71001A2F51 /* Info.plist */,
+				118BC1A9286B30A70050EF31 /* BannerDelegate.swift */,
 			);
 			path = IntegrationExample;
 			sourceTree = "<group>";
@@ -188,9 +195,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				118BC1AA286B30A70050EF31 /* BannerDelegate.swift in Sources */,
 				110ED4CC2869DC6F001A2F51 /* ViewController.swift in Sources */,
 				110ED4C82869DC6F001A2F51 /* AppDelegate.swift in Sources */,
-				110ED4CA2869DC6F001A2F51 /* SceneDelegate.swift in Sources */,
+				118BC1A8286B2FBB0050EF31 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +359,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.slabs.IntegrationExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -380,6 +389,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.slabs.IntegrationExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
