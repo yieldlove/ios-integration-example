@@ -1,6 +1,8 @@
 # Example iOS app
 Example app for iOS, including YieldloveAdIntegration and YieldloveExternalConfiguration, for displaying ads.
 
+Beware: This example does not demonstrate the use of consent management.
+
 ## How to run
 1. Install Xcode 13.0 or later (if not already installed)
 2. Clone this repository anywhere on your computer
