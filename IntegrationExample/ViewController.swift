@@ -1,21 +1,33 @@
 import UIKit
-import YieldloveAdIntegration
+import GoogleMobileAds
 
 class ViewController: UIViewController {
    
+    var bannerView: GAMBannerView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Test configuration
-        let appName = "appDfpTestMonitoring2"
-        let adSlotId = "b2"
-        
-        // Setup Yieldlove (this should be done only once)
-        Yieldlove.setup(appName: appName)
-        
         // Initialize banner ad
-        let delegate = BannerDelegate(viewController: self)
-        Yieldlove.instance.bannerAd(adSlotId: adSlotId, viewController: self, delegate: delegate)
+        bannerView = GAMBannerView(adSize: GADAdSizeBanner)
+        bannerView.adUnitID = "/6499/example/banner"
+        bannerView.rootViewController = self
+        bannerView.center = self.view.center
+        
+        addBannerViewToView(bannerView)
+    }
+    
+    func addBannerViewToView(_ bannerView: GAMBannerView) {
+        view.addSubview(bannerView)
+        setTimer()
+    }
+    
+    func setTimer() {
+        let timer = Timer.scheduledTimer(withTimeInterval: 5, repeats: true) { _ in
+            print("Banner Load")
+            self.bannerView.load(GAMRequest())
+        }
+        timer.fire()
     }
 
 }

@@ -9,12 +9,8 @@
 /* Begin PBXBuildFile section */
 		110CCB222869EA7800183F99 /* PromiseKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110CCB1E2869EA7800183F99 /* PromiseKit.xcframework */; };
 		110CCB232869EA7800183F99 /* PromiseKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 110CCB1E2869EA7800183F99 /* PromiseKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		110CCB242869EA7800183F99 /* YieldloveAdIntegration.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110CCB1F2869EA7800183F99 /* YieldloveAdIntegration.xcframework */; };
-		110CCB252869EA7800183F99 /* YieldloveAdIntegration.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 110CCB1F2869EA7800183F99 /* YieldloveAdIntegration.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		110CCB262869EA7800183F99 /* PrebidMobile.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110CCB202869EA7800183F99 /* PrebidMobile.xcframework */; };
 		110CCB272869EA7800183F99 /* PrebidMobile.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 110CCB202869EA7800183F99 /* PrebidMobile.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		110CCB282869EA7800183F99 /* YieldloveExternalConfiguration.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110CCB212869EA7800183F99 /* YieldloveExternalConfiguration.xcframework */; };
-		110CCB292869EA7800183F99 /* YieldloveExternalConfiguration.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 110CCB212869EA7800183F99 /* YieldloveExternalConfiguration.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		110CCB2D2869EAAF00183F99 /* CriteoPublisherSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110CCB2B2869EAAF00183F99 /* CriteoPublisherSdk.xcframework */; };
 		110CCB2F2869EAAF00183F99 /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110CCB2C2869EAAF00183F99 /* GoogleMobileAds.xcframework */; };
 		110ED4C82869DC6F001A2F51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110ED4C72869DC6F001A2F51 /* AppDelegate.swift */; };
@@ -34,9 +30,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				110CCB272869EA7800183F99 /* PrebidMobile.xcframework in Embed Frameworks */,
-				110CCB292869EA7800183F99 /* YieldloveExternalConfiguration.xcframework in Embed Frameworks */,
 				110CCB232869EA7800183F99 /* PromiseKit.xcframework in Embed Frameworks */,
-				110CCB252869EA7800183F99 /* YieldloveAdIntegration.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,9 +63,7 @@
 				110CCB2D2869EAAF00183F99 /* CriteoPublisherSdk.xcframework in Frameworks */,
 				110CCB2F2869EAAF00183F99 /* GoogleMobileAds.xcframework in Frameworks */,
 				110CCB262869EA7800183F99 /* PrebidMobile.xcframework in Frameworks */,
-				110CCB282869EA7800183F99 /* YieldloveExternalConfiguration.xcframework in Frameworks */,
 				110CCB222869EA7800183F99 /* PromiseKit.xcframework in Frameworks */,
-				110CCB242869EA7800183F99 /* YieldloveAdIntegration.xcframework in Frameworks */,
 				118BC1A6286B21ED0050EF31 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
