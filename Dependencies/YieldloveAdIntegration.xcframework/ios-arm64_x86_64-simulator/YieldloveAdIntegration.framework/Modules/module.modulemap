@@ -6,6 +6,6 @@ framework module YieldloveAdIntegration {
 }
 
 module YieldloveAdIntegration.Swift {
-    header "YieldloveAdIntegration-Swift.h"
-    requires objc
+  header "YieldloveAdIntegration-Swift.h"
+  requires objc
 }

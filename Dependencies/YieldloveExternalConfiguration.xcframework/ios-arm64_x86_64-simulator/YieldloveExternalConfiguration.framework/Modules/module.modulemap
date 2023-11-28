@@ -6,6 +6,6 @@ framework module YieldloveExternalConfiguration {
 }
 
 module YieldloveExternalConfiguration.Swift {
-    header "YieldloveExternalConfiguration-Swift.h"
-    requires objc
+  header "YieldloveExternalConfiguration-Swift.h"
+  requires objc
 }

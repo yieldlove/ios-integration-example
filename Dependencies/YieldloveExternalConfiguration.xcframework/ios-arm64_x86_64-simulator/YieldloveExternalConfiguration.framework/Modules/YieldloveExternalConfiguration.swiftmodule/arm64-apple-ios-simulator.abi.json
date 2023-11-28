@@ -1,0 +1,4646 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "YieldloveExternalConfiguration"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BannerSizes",
+        "printedName": "BannerSizes",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(bannerSizes:gadBannerSizes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BannerSizes",
+                "printedName": "YieldloveExternalConfiguration.BannerSizes",
+                "usr": "s:30YieldloveExternalConfiguration11BannerSizesV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreFoundation.CGSize]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:30YieldloveExternalConfiguration11BannerSizesV06bannerE003gaddE0ACSaySo6CGSizeVG_SaySSGtcfc",
+            "mangledName": "$s30YieldloveExternalConfiguration11BannerSizesV06bannerE003gaddE0ACSaySo6CGSizeVG_SaySSGtcfc",
+            "moduleName": "YieldloveExternalConfiguration",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "bannerSizes",
+            "printedName": "bannerSizes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreFoundation.CGSize]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration11BannerSizesV06bannerE0SaySo6CGSizeVGvp",
+            "mangledName": "$s30YieldloveExternalConfiguration11BannerSizesV06bannerE0SaySo6CGSizeVGvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CoreFoundation.CGSize]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGSize",
+                        "printedName": "CoreFoundation.CGSize",
+                        "usr": "c:@S@CGSize"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration11BannerSizesV06bannerE0SaySo6CGSizeVGvg",
+                "mangledName": "$s30YieldloveExternalConfiguration11BannerSizesV06bannerE0SaySo6CGSizeVGvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CoreFoundation.CGSize]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGSize",
+                        "printedName": "CoreFoundation.CGSize",
+                        "usr": "c:@S@CGSize"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration11BannerSizesV06bannerE0SaySo6CGSizeVGvs",
+                "mangledName": "$s30YieldloveExternalConfiguration11BannerSizesV06bannerE0SaySo6CGSizeVGvs",
+                "moduleName": "YieldloveExternalConfiguration",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration11BannerSizesV06bannerE0SaySo6CGSizeVGvM",
+                "mangledName": "$s30YieldloveExternalConfiguration11BannerSizesV06bannerE0SaySo6CGSizeVGvM",
+                "moduleName": "YieldloveExternalConfiguration",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gadBannerSizes",
+            "printedName": "gadBannerSizes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration11BannerSizesV03gaddE0SaySSGvp",
+            "mangledName": "$s30YieldloveExternalConfiguration11BannerSizesV03gaddE0SaySSGvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration11BannerSizesV03gaddE0SaySSGvg",
+                "mangledName": "$s30YieldloveExternalConfiguration11BannerSizesV03gaddE0SaySSGvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration11BannerSizesV03gaddE0SaySSGvs",
+                "mangledName": "$s30YieldloveExternalConfiguration11BannerSizesV03gaddE0SaySSGvs",
+                "moduleName": "YieldloveExternalConfiguration",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration11BannerSizesV03gaddE0SaySSGvM",
+                "mangledName": "$s30YieldloveExternalConfiguration11BannerSizesV03gaddE0SaySSGvM",
+                "moduleName": "YieldloveExternalConfiguration",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:30YieldloveExternalConfiguration11BannerSizesV",
+        "mangledName": "$s30YieldloveExternalConfiguration11BannerSizesV",
+        "moduleName": "YieldloveExternalConfiguration",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PromiseKit",
+        "printedName": "PromiseKit",
+        "declKind": "Import",
+        "moduleName": "YieldloveExternalConfiguration"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ExternalConfigurationManager",
+        "printedName": "ExternalConfigurationManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getAdUnitData",
+            "printedName": "getAdUnitData(publisherAdSlot:adType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "PromiseKit.Promise<YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConfigurableAdUnitData",
+                    "printedName": "YieldloveExternalConfiguration.ConfigurableAdUnitData",
+                    "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP"
+                  }
+                ],
+                "usr": "s:10PromiseKit0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdType",
+                "printedName": "YieldloveExternalConfiguration.AdType",
+                "usr": "s:30YieldloveExternalConfiguration6AdTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30YieldloveExternalConfiguration0bC7ManagerC13getAdUnitData09publisherF4Slot6adType10PromiseKit0M0CyAA012ConfigurablefgH0_pGSS_AA0fL0OtF",
+            "mangledName": "$s30YieldloveExternalConfiguration0bC7ManagerC13getAdUnitData09publisherF4Slot6adType10PromiseKit0M0CyAA012ConfigurablefgH0_pGSS_AA0fL0OtF",
+            "moduleName": "YieldloveExternalConfiguration",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getConsentData",
+            "printedName": "getConsentData(overrideProperties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "PromiseKit.Promise<YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConfigurableConsentData",
+                    "printedName": "YieldloveExternalConfiguration.ConfigurableConsentData",
+                    "usr": "s:30YieldloveExternalConfiguration23ConfigurableConsentDataP"
+                  }
+                ],
+                "usr": "s:10PromiseKit0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30YieldloveExternalConfiguration0bC7ManagerC14getConsentData18overrideProperties10PromiseKit0J0CyAA012ConfigurablefG0_pGSSSg_tF",
+            "mangledName": "$s30YieldloveExternalConfiguration0bC7ManagerC14getConsentData18overrideProperties10PromiseKit0J0CyAA012ConfigurablefG0_pGSSSg_tF",
+            "moduleName": "YieldloveExternalConfiguration",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMonitoringData",
+            "printedName": "getMonitoringData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "PromiseKit.Promise<YieldloveExternalConfiguration.MonitoringData>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MonitoringData",
+                    "printedName": "YieldloveExternalConfiguration.MonitoringData",
+                    "usr": "s:30YieldloveExternalConfiguration14MonitoringDataP"
+                  }
+                ],
+                "usr": "s:10PromiseKit0A0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30YieldloveExternalConfiguration0bC7ManagerC17getMonitoringData10PromiseKit0H0CyAA0fG0_pGyF",
+            "mangledName": "$s30YieldloveExternalConfiguration0bC7ManagerC17getMonitoringData10PromiseKit0H0CyAA0fG0_pGyF",
+            "moduleName": "YieldloveExternalConfiguration",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearConfigurationCache",
+            "printedName": "clearConfigurationCache()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30YieldloveExternalConfiguration0bC7ManagerC05clearC5CacheyyF",
+            "mangledName": "$s30YieldloveExternalConfiguration0bC7ManagerC05clearC5CacheyyF",
+            "moduleName": "YieldloveExternalConfiguration",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:30YieldloveExternalConfiguration0bC7ManagerC",
+        "mangledName": "$s30YieldloveExternalConfiguration0bC7ManagerC",
+        "moduleName": "YieldloveExternalConfiguration",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ConfigurationManager",
+            "printedName": "ConfigurationManager",
+            "usr": "s:30YieldloveExternalConfiguration0C7ManagerP",
+            "mangledName": "$s30YieldloveExternalConfiguration0C7ManagerP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PromiseKit",
+        "printedName": "PromiseKit",
+        "declKind": "Import",
+        "moduleName": "YieldloveExternalConfiguration"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YieldloveExternalConfiguration",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YieldloveExternalConfiguration"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConfigurableAdUnitData",
+        "printedName": "ConfigurableAdUnitData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "adUnit",
+            "printedName": "adUnit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP02adF0SSvp",
+            "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP02adF0SSvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP02adF0SSvg",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP02adF0SSvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP02adF0SSvs",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP02adF0SSvs",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP02adF0SSvM",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP02adF0SSvM",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "configId",
+            "printedName": "configId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP8configIdSSvp",
+            "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP8configIdSSvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP8configIdSSvg",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP8configIdSSvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP8configIdSSvs",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP8configIdSSvs",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP8configIdSSvM",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP8configIdSSvM",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sizes",
+            "printedName": "sizes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "YieldloveExternalConfiguration.BannerSizes?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BannerSizes",
+                    "printedName": "YieldloveExternalConfiguration.BannerSizes",
+                    "usr": "s:30YieldloveExternalConfiguration11BannerSizesV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP5sizesAA11BannerSizesVSgvp",
+            "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP5sizesAA11BannerSizesVSgvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "YieldloveExternalConfiguration.BannerSizes?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BannerSizes",
+                        "printedName": "YieldloveExternalConfiguration.BannerSizes",
+                        "usr": "s:30YieldloveExternalConfiguration11BannerSizesV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP5sizesAA11BannerSizesVSgvg",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP5sizesAA11BannerSizesVSgvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "YieldloveExternalConfiguration.BannerSizes?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BannerSizes",
+                        "printedName": "YieldloveExternalConfiguration.BannerSizes",
+                        "usr": "s:30YieldloveExternalConfiguration11BannerSizesV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP5sizesAA11BannerSizesVSgvs",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP5sizesAA11BannerSizesVSgvs",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP5sizesAA11BannerSizesVSgvM",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP5sizesAA11BannerSizesVSgvM",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "keyValueTargeting",
+            "printedName": "keyValueTargeting",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP17keyValueTargetingSDyS2SGvp",
+            "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP17keyValueTargetingSDyS2SGvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP17keyValueTargetingSDyS2SGvg",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP17keyValueTargetingSDyS2SGvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP17keyValueTargetingSDyS2SGvs",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP17keyValueTargetingSDyS2SGvs",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP17keyValueTargetingSDyS2SGvM",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP17keyValueTargetingSDyS2SGvM",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accountId",
+            "printedName": "accountId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP9accountIdSSSgvp",
+            "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP9accountIdSSSgvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP9accountIdSSSgvg",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP9accountIdSSSgvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP9accountIdSSSgvs",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP9accountIdSSSgvs",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP9accountIdSSSgvM",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP9accountIdSSSgvM",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "skipPrebid",
+            "printedName": "skipPrebid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP10skipPrebidSbvp",
+            "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP10skipPrebidSbvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP10skipPrebidSbvg",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP10skipPrebidSbvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP10skipPrebidSbvs",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP10skipPrebidSbvs",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP10skipPrebidSbvM",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP10skipPrebidSbvM",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "criteoPublisherId",
+            "printedName": "criteoPublisherId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP17criteoPublisherIdSSSgvp",
+            "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP17criteoPublisherIdSSSgvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP17criteoPublisherIdSSSgvg",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP17criteoPublisherIdSSSgvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP17criteoPublisherIdSSSgvs",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP17criteoPublisherIdSSSgvs",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP17criteoPublisherIdSSSgvM",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP17criteoPublisherIdSSSgvM",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "storeUrl",
+            "printedName": "storeUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP8storeUrlSSSgvp",
+            "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP8storeUrlSSSgvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP8storeUrlSSSgvg",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP8storeUrlSSSgvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP8storeUrlSSSgvs",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP8storeUrlSSSgvs",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP8storeUrlSSSgvM",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP8storeUrlSSSgvM",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "itunesID",
+            "printedName": "itunesID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP8itunesIDSSSgvp",
+            "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP8itunesIDSSSgvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP8itunesIDSSSgvg",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP8itunesIDSSSgvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP8itunesIDSSSgvs",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP8itunesIDSSSgvs",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP8itunesIDSSSgvM",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP8itunesIDSSSgvM",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "openRtbApi",
+            "printedName": "openRtbApi",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.Int]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP10openRtbApiSaySiGSgvp",
+            "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP10openRtbApiSaySiGSgvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.Int]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Int]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP10openRtbApiSaySiGSgvg",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP10openRtbApiSaySiGSgvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.Int]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Int]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP10openRtbApiSaySiGSgvs",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP10openRtbApiSaySiGSgvs",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP10openRtbApiSaySiGSgvM",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP10openRtbApiSaySiGSgvM",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "autoRefreshTimeMs",
+            "printedName": "autoRefreshTimeMs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP17autoRefreshTimeMsSiSgvp",
+            "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP17autoRefreshTimeMsSiSgvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP17autoRefreshTimeMsSiSgvg",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP17autoRefreshTimeMsSiSgvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP17autoRefreshTimeMsSiSgvs",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP17autoRefreshTimeMsSiSgvs",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP17autoRefreshTimeMsSiSgvM",
+                "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP17autoRefreshTimeMsSiSgvM",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP",
+        "mangledName": "$s30YieldloveExternalConfiguration22ConfigurableAdUnitDataP",
+        "moduleName": "YieldloveExternalConfiguration",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YieldloveExternalConfiguration",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YieldloveExternalConfiguration",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConfigTimestampUserDefaultsDao",
+        "printedName": "ConfigTimestampUserDefaultsDao",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "externalConfigLastFetchInMsKey",
+            "printedName": "externalConfigLastFetchInMsKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration30ConfigTimestampUserDefaultsDaoC08externalD16LastFetchInMsKeySSvpZ",
+            "mangledName": "$s30YieldloveExternalConfiguration30ConfigTimestampUserDefaultsDaoC08externalD16LastFetchInMsKeySSvpZ",
+            "moduleName": "YieldloveExternalConfiguration",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration30ConfigTimestampUserDefaultsDaoC08externalD16LastFetchInMsKeySSvgZ",
+                "mangledName": "$s30YieldloveExternalConfiguration30ConfigTimestampUserDefaultsDaoC08externalD16LastFetchInMsKeySSvgZ",
+                "moduleName": "YieldloveExternalConfiguration",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:30YieldloveExternalConfiguration30ConfigTimestampUserDefaultsDaoC",
+        "mangledName": "$s30YieldloveExternalConfiguration30ConfigTimestampUserDefaultsDaoC",
+        "moduleName": "YieldloveExternalConfiguration",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ExternalConfigurationManagerBuilder",
+        "printedName": "ExternalConfigurationManagerBuilder",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "instance",
+            "printedName": "instance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExternalConfigurationManagerBuilder",
+                "printedName": "YieldloveExternalConfiguration.ExternalConfigurationManagerBuilder",
+                "usr": "s:30YieldloveExternalConfiguration0bC14ManagerBuilderC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration0bC14ManagerBuilderC8instanceACvpZ",
+            "mangledName": "$s30YieldloveExternalConfiguration0bC14ManagerBuilderC8instanceACvpZ",
+            "moduleName": "YieldloveExternalConfiguration",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExternalConfigurationManagerBuilder",
+                    "printedName": "YieldloveExternalConfiguration.ExternalConfigurationManagerBuilder",
+                    "usr": "s:30YieldloveExternalConfiguration0bC14ManagerBuilderC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration0bC14ManagerBuilderC8instanceACvgZ",
+                "mangledName": "$s30YieldloveExternalConfiguration0bC14ManagerBuilderC8instanceACvgZ",
+                "moduleName": "YieldloveExternalConfiguration",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration0bC14ManagerBuilderC5debugSbvp",
+            "mangledName": "$s30YieldloveExternalConfiguration0bC14ManagerBuilderC5debugSbvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration0bC14ManagerBuilderC5debugSbvg",
+                "mangledName": "$s30YieldloveExternalConfiguration0bC14ManagerBuilderC5debugSbvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration0bC14ManagerBuilderC5debugSbvs",
+                "mangledName": "$s30YieldloveExternalConfiguration0bC14ManagerBuilderC5debugSbvs",
+                "moduleName": "YieldloveExternalConfiguration",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration0bC14ManagerBuilderC5debugSbvM",
+                "mangledName": "$s30YieldloveExternalConfiguration0bC14ManagerBuilderC5debugSbvM",
+                "moduleName": "YieldloveExternalConfiguration",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appName",
+            "printedName": "appName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration0bC14ManagerBuilderC7appNameSSSgvp",
+            "mangledName": "$s30YieldloveExternalConfiguration0bC14ManagerBuilderC7appNameSSSgvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration0bC14ManagerBuilderC7appNameSSSgvg",
+                "mangledName": "$s30YieldloveExternalConfiguration0bC14ManagerBuilderC7appNameSSSgvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration0bC14ManagerBuilderC7appNameSSSgvs",
+                "mangledName": "$s30YieldloveExternalConfiguration0bC14ManagerBuilderC7appNameSSSgvs",
+                "moduleName": "YieldloveExternalConfiguration",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration0bC14ManagerBuilderC7appNameSSSgvM",
+                "mangledName": "$s30YieldloveExternalConfiguration0bC14ManagerBuilderC7appNameSSSgvM",
+                "moduleName": "YieldloveExternalConfiguration",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "externalConfigurationManager",
+            "printedName": "externalConfigurationManager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConfigurationManager",
+                "printedName": "YieldloveExternalConfiguration.ConfigurationManager",
+                "usr": "s:30YieldloveExternalConfiguration0C7ManagerP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration0bC14ManagerBuilderC08externalcD0AA0cD0_pvp",
+            "mangledName": "$s30YieldloveExternalConfiguration0bC14ManagerBuilderC08externalcD0AA0cD0_pvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConfigurationManager",
+                    "printedName": "YieldloveExternalConfiguration.ConfigurationManager",
+                    "usr": "s:30YieldloveExternalConfiguration0C7ManagerP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration0bC14ManagerBuilderC08externalcD0AA0cD0_pvg",
+                "mangledName": "$s30YieldloveExternalConfiguration0bC14ManagerBuilderC08externalcD0AA0cD0_pvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConfigurationManager",
+                    "printedName": "YieldloveExternalConfiguration.ConfigurationManager",
+                    "usr": "s:30YieldloveExternalConfiguration0C7ManagerP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration0bC14ManagerBuilderC08externalcD0AA0cD0_pvs",
+                "mangledName": "$s30YieldloveExternalConfiguration0bC14ManagerBuilderC08externalcD0AA0cD0_pvs",
+                "moduleName": "YieldloveExternalConfiguration",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration0bC14ManagerBuilderC08externalcD0AA0cD0_pvM",
+                "mangledName": "$s30YieldloveExternalConfiguration0bC14ManagerBuilderC08externalcD0AA0cD0_pvM",
+                "moduleName": "YieldloveExternalConfiguration",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:30YieldloveExternalConfiguration0bC14ManagerBuilderC",
+        "mangledName": "$s30YieldloveExternalConfiguration0bC14ManagerBuilderC",
+        "moduleName": "YieldloveExternalConfiguration",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "PromiseKit",
+        "printedName": "PromiseKit",
+        "declKind": "Import",
+        "moduleName": "YieldloveExternalConfiguration"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConfigurationManager",
+        "printedName": "ConfigurationManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getAdUnitData",
+            "printedName": "getAdUnitData(publisherAdSlot:adType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "PromiseKit.Promise<YieldloveExternalConfiguration.ConfigurableAdUnitData>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConfigurableAdUnitData",
+                    "printedName": "YieldloveExternalConfiguration.ConfigurableAdUnitData",
+                    "usr": "s:30YieldloveExternalConfiguration22ConfigurableAdUnitDataP"
+                  }
+                ],
+                "usr": "s:10PromiseKit0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdType",
+                "printedName": "YieldloveExternalConfiguration.AdType",
+                "usr": "s:30YieldloveExternalConfiguration6AdTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30YieldloveExternalConfiguration0C7ManagerP13getAdUnitData09publisherF4Slot6adType10PromiseKit0M0CyAA012ConfigurablefgH0_pGSS_AA0fL0OtF",
+            "mangledName": "$s30YieldloveExternalConfiguration0C7ManagerP13getAdUnitData09publisherF4Slot6adType10PromiseKit0M0CyAA012ConfigurablefgH0_pGSS_AA0fL0OtF",
+            "moduleName": "YieldloveExternalConfiguration",
+            "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurationManager>",
+            "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurationManager>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getConsentData",
+            "printedName": "getConsentData(overrideProperties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "PromiseKit.Promise<YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConfigurableConsentData",
+                    "printedName": "YieldloveExternalConfiguration.ConfigurableConsentData",
+                    "usr": "s:30YieldloveExternalConfiguration23ConfigurableConsentDataP"
+                  }
+                ],
+                "usr": "s:10PromiseKit0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30YieldloveExternalConfiguration0C7ManagerP14getConsentData18overrideProperties10PromiseKit0J0CyAA012ConfigurablefG0_pGSSSg_tF",
+            "mangledName": "$s30YieldloveExternalConfiguration0C7ManagerP14getConsentData18overrideProperties10PromiseKit0J0CyAA012ConfigurablefG0_pGSSSg_tF",
+            "moduleName": "YieldloveExternalConfiguration",
+            "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurationManager>",
+            "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurationManager>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMonitoringData",
+            "printedName": "getMonitoringData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "PromiseKit.Promise<YieldloveExternalConfiguration.MonitoringData>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MonitoringData",
+                    "printedName": "YieldloveExternalConfiguration.MonitoringData",
+                    "usr": "s:30YieldloveExternalConfiguration14MonitoringDataP"
+                  }
+                ],
+                "usr": "s:10PromiseKit0A0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30YieldloveExternalConfiguration0C7ManagerP17getMonitoringData10PromiseKit0H0CyAA0fG0_pGyF",
+            "mangledName": "$s30YieldloveExternalConfiguration0C7ManagerP17getMonitoringData10PromiseKit0H0CyAA0fG0_pGyF",
+            "moduleName": "YieldloveExternalConfiguration",
+            "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurationManager>",
+            "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurationManager>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearConfigurationCache",
+            "printedName": "clearConfigurationCache()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30YieldloveExternalConfiguration0C7ManagerP05clearC5CacheyyF",
+            "mangledName": "$s30YieldloveExternalConfiguration0C7ManagerP05clearC5CacheyyF",
+            "moduleName": "YieldloveExternalConfiguration",
+            "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurationManager>",
+            "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurationManager>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:30YieldloveExternalConfiguration0C7ManagerP",
+        "mangledName": "$s30YieldloveExternalConfiguration0C7ManagerP",
+        "moduleName": "YieldloveExternalConfiguration",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdType",
+        "printedName": "AdType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bannerAd",
+            "printedName": "bannerAd",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YieldloveExternalConfiguration.AdType.Type) -> YieldloveExternalConfiguration.AdType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdType",
+                    "printedName": "YieldloveExternalConfiguration.AdType",
+                    "usr": "s:30YieldloveExternalConfiguration6AdTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YieldloveExternalConfiguration.AdType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdType",
+                        "printedName": "YieldloveExternalConfiguration.AdType",
+                        "usr": "s:30YieldloveExternalConfiguration6AdTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:30YieldloveExternalConfiguration6AdTypeO06bannerD0yA2CmF",
+            "mangledName": "$s30YieldloveExternalConfiguration6AdTypeO06bannerD0yA2CmF",
+            "moduleName": "YieldloveExternalConfiguration"
+          },
+          {
+            "kind": "Var",
+            "name": "interstitial",
+            "printedName": "interstitial",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YieldloveExternalConfiguration.AdType.Type) -> YieldloveExternalConfiguration.AdType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdType",
+                    "printedName": "YieldloveExternalConfiguration.AdType",
+                    "usr": "s:30YieldloveExternalConfiguration6AdTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YieldloveExternalConfiguration.AdType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdType",
+                        "printedName": "YieldloveExternalConfiguration.AdType",
+                        "usr": "s:30YieldloveExternalConfiguration6AdTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:30YieldloveExternalConfiguration6AdTypeO12interstitialyA2CmF",
+            "mangledName": "$s30YieldloveExternalConfiguration6AdTypeO12interstitialyA2CmF",
+            "moduleName": "YieldloveExternalConfiguration"
+          },
+          {
+            "kind": "Var",
+            "name": "rewarded",
+            "printedName": "rewarded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YieldloveExternalConfiguration.AdType.Type) -> YieldloveExternalConfiguration.AdType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdType",
+                    "printedName": "YieldloveExternalConfiguration.AdType",
+                    "usr": "s:30YieldloveExternalConfiguration6AdTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YieldloveExternalConfiguration.AdType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdType",
+                        "printedName": "YieldloveExternalConfiguration.AdType",
+                        "usr": "s:30YieldloveExternalConfiguration6AdTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:30YieldloveExternalConfiguration6AdTypeO8rewardedyA2CmF",
+            "mangledName": "$s30YieldloveExternalConfiguration6AdTypeO8rewardedyA2CmF",
+            "moduleName": "YieldloveExternalConfiguration"
+          },
+          {
+            "kind": "Var",
+            "name": "isBannerAd",
+            "printedName": "isBannerAd",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration6AdTypeO08isBannerD0Sbvp",
+            "mangledName": "$s30YieldloveExternalConfiguration6AdTypeO08isBannerD0Sbvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration6AdTypeO08isBannerD0Sbvg",
+                "mangledName": "$s30YieldloveExternalConfiguration6AdTypeO08isBannerD0Sbvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdType",
+                "printedName": "YieldloveExternalConfiguration.AdType",
+                "usr": "s:30YieldloveExternalConfiguration6AdTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdType",
+                "printedName": "YieldloveExternalConfiguration.AdType",
+                "usr": "s:30YieldloveExternalConfiguration6AdTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30YieldloveExternalConfiguration6AdTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s30YieldloveExternalConfiguration6AdTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "YieldloveExternalConfiguration",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration6AdTypeO9hashValueSivp",
+            "mangledName": "$s30YieldloveExternalConfiguration6AdTypeO9hashValueSivp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration6AdTypeO9hashValueSivg",
+                "mangledName": "$s30YieldloveExternalConfiguration6AdTypeO9hashValueSivg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30YieldloveExternalConfiguration6AdTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s30YieldloveExternalConfiguration6AdTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "YieldloveExternalConfiguration",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:30YieldloveExternalConfiguration6AdTypeO",
+        "mangledName": "$s30YieldloveExternalConfiguration6AdTypeO",
+        "moduleName": "YieldloveExternalConfiguration",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YieldloveExternalConfiguration",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConfigUserDefaultsDao",
+        "printedName": "ConfigUserDefaultsDao",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "configUserDefaultsKey",
+            "printedName": "configUserDefaultsKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration21ConfigUserDefaultsDaoC06configeF3KeySSvpZ",
+            "mangledName": "$s30YieldloveExternalConfiguration21ConfigUserDefaultsDaoC06configeF3KeySSvpZ",
+            "moduleName": "YieldloveExternalConfiguration",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration21ConfigUserDefaultsDaoC06configeF3KeySSvgZ",
+                "mangledName": "$s30YieldloveExternalConfiguration21ConfigUserDefaultsDaoC06configeF3KeySSvgZ",
+                "moduleName": "YieldloveExternalConfiguration",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:30YieldloveExternalConfiguration21ConfigUserDefaultsDaoC",
+        "mangledName": "$s30YieldloveExternalConfiguration21ConfigUserDefaultsDaoC",
+        "moduleName": "YieldloveExternalConfiguration",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MonitoringData",
+        "printedName": "MonitoringData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "active",
+            "printedName": "active",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration14MonitoringDataP6activeSbvp",
+            "mangledName": "$s30YieldloveExternalConfiguration14MonitoringDataP6activeSbvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration14MonitoringDataP6activeSbvg",
+                "mangledName": "$s30YieldloveExternalConfiguration14MonitoringDataP6activeSbvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.MonitoringData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.MonitoringData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sendingIntervalMs",
+            "printedName": "sendingIntervalMs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration14MonitoringDataP17sendingIntervalMsSivp",
+            "mangledName": "$s30YieldloveExternalConfiguration14MonitoringDataP17sendingIntervalMsSivp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration14MonitoringDataP17sendingIntervalMsSivg",
+                "mangledName": "$s30YieldloveExternalConfiguration14MonitoringDataP17sendingIntervalMsSivg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.MonitoringData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.MonitoringData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxSessionsForSending",
+            "printedName": "maxSessionsForSending",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration14MonitoringDataP21maxSessionsForSendingSivp",
+            "mangledName": "$s30YieldloveExternalConfiguration14MonitoringDataP21maxSessionsForSendingSivp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration14MonitoringDataP21maxSessionsForSendingSivg",
+                "mangledName": "$s30YieldloveExternalConfiguration14MonitoringDataP21maxSessionsForSendingSivg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.MonitoringData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.MonitoringData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "frequency",
+            "printedName": "frequency",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration14MonitoringDataP9frequencySivp",
+            "mangledName": "$s30YieldloveExternalConfiguration14MonitoringDataP9frequencySivp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration14MonitoringDataP9frequencySivg",
+                "mangledName": "$s30YieldloveExternalConfiguration14MonitoringDataP9frequencySivg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.MonitoringData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.MonitoringData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:30YieldloveExternalConfiguration14MonitoringDataP",
+        "mangledName": "$s30YieldloveExternalConfiguration14MonitoringDataP",
+        "moduleName": "YieldloveExternalConfiguration",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PromiseKit",
+        "printedName": "PromiseKit",
+        "declKind": "Import",
+        "moduleName": "YieldloveExternalConfiguration"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YieldloveExternalConfiguration"
+      },
+      {
+        "kind": "Import",
+        "name": "PromiseKit",
+        "printedName": "PromiseKit",
+        "declKind": "Import",
+        "moduleName": "YieldloveExternalConfiguration"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YieldloveExternalConfiguration"
+      },
+      {
+        "kind": "Import",
+        "name": "PromiseKit",
+        "printedName": "PromiseKit",
+        "declKind": "Import",
+        "moduleName": "YieldloveExternalConfiguration"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RequestSenderResponse",
+        "printedName": "RequestSenderResponse",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(data:response:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RequestSenderResponse",
+                "printedName": "YieldloveExternalConfiguration.RequestSenderResponse",
+                "usr": "s:30YieldloveExternalConfiguration21RequestSenderResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URLResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLResponse",
+                    "printedName": "Foundation.URLResponse",
+                    "usr": "c:objc(cs)NSURLResponse"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:30YieldloveExternalConfiguration21RequestSenderResponseV4data8responseAC10Foundation4DataVSg_So13NSURLResponseCSgtcfc",
+            "mangledName": "$s30YieldloveExternalConfiguration21RequestSenderResponseV4data8responseAC10Foundation4DataVSg_So13NSURLResponseCSgtcfc",
+            "moduleName": "YieldloveExternalConfiguration",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration21RequestSenderResponseV4data10Foundation4DataVSgvp",
+            "mangledName": "$s30YieldloveExternalConfiguration21RequestSenderResponseV4data10Foundation4DataVSgvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration21RequestSenderResponseV4data10Foundation4DataVSgvg",
+                "mangledName": "$s30YieldloveExternalConfiguration21RequestSenderResponseV4data10Foundation4DataVSgvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "response",
+            "printedName": "response",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URLResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLResponse",
+                    "printedName": "Foundation.URLResponse",
+                    "usr": "c:objc(cs)NSURLResponse"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration21RequestSenderResponseV8responseSo13NSURLResponseCSgvp",
+            "mangledName": "$s30YieldloveExternalConfiguration21RequestSenderResponseV8responseSo13NSURLResponseCSgvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URLResponse?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLResponse",
+                        "printedName": "Foundation.URLResponse",
+                        "usr": "c:objc(cs)NSURLResponse"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration21RequestSenderResponseV8responseSo13NSURLResponseCSgvg",
+                "mangledName": "$s30YieldloveExternalConfiguration21RequestSenderResponseV8responseSo13NSURLResponseCSgvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "isSuccessfulHttpResponse",
+            "printedName": "isSuccessfulHttpResponse()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30YieldloveExternalConfiguration21RequestSenderResponseV016isSuccessfulHttpF0SbyF",
+            "mangledName": "$s30YieldloveExternalConfiguration21RequestSenderResponseV016isSuccessfulHttpF0SbyF",
+            "moduleName": "YieldloveExternalConfiguration",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:30YieldloveExternalConfiguration21RequestSenderResponseV",
+        "mangledName": "$s30YieldloveExternalConfiguration21RequestSenderResponseV",
+        "moduleName": "YieldloveExternalConfiguration",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RequestSenderError",
+        "printedName": "RequestSenderError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidRequestUrl",
+            "printedName": "invalidRequestUrl",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YieldloveExternalConfiguration.RequestSenderError.Type) -> (Swift.String) -> YieldloveExternalConfiguration.RequestSenderError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> YieldloveExternalConfiguration.RequestSenderError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RequestSenderError",
+                        "printedName": "YieldloveExternalConfiguration.RequestSenderError",
+                        "usr": "s:30YieldloveExternalConfiguration18RequestSenderErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(invalidUrl: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YieldloveExternalConfiguration.RequestSenderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RequestSenderError",
+                        "printedName": "YieldloveExternalConfiguration.RequestSenderError",
+                        "usr": "s:30YieldloveExternalConfiguration18RequestSenderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:30YieldloveExternalConfiguration18RequestSenderErrorO07invalidD3UrlyACSS_tcACmF",
+            "mangledName": "$s30YieldloveExternalConfiguration18RequestSenderErrorO07invalidD3UrlyACSS_tcACmF",
+            "moduleName": "YieldloveExternalConfiguration"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration18RequestSenderErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s30YieldloveExternalConfiguration18RequestSenderErrorO16errorDescriptionSSSgvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration18RequestSenderErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s30YieldloveExternalConfiguration18RequestSenderErrorO16errorDescriptionSSSgvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:30YieldloveExternalConfiguration18RequestSenderErrorO",
+        "mangledName": "$s30YieldloveExternalConfiguration18RequestSenderErrorO",
+        "moduleName": "YieldloveExternalConfiguration",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RequestSender",
+        "printedName": "RequestSender",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "get",
+            "printedName": "get(url:headers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "PromiseKit.Promise<YieldloveExternalConfiguration.RequestSenderResponse>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestSenderResponse",
+                    "printedName": "YieldloveExternalConfiguration.RequestSenderResponse",
+                    "usr": "s:30YieldloveExternalConfiguration21RequestSenderResponseV"
+                  }
+                ],
+                "usr": "s:10PromiseKit0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30YieldloveExternalConfiguration13RequestSenderP3get3url7headers10PromiseKit0I0CyAA0dE8ResponseVGSS_SDyS2SGtF",
+            "mangledName": "$s30YieldloveExternalConfiguration13RequestSenderP3get3url7headers10PromiseKit0I0CyAA0dE8ResponseVGSS_SDyS2SGtF",
+            "moduleName": "YieldloveExternalConfiguration",
+            "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.RequestSender>",
+            "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.RequestSender>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "post",
+            "printedName": "post(url:body:headers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "PromiseKit.Promise<YieldloveExternalConfiguration.RequestSenderResponse>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestSenderResponse",
+                    "printedName": "YieldloveExternalConfiguration.RequestSenderResponse",
+                    "usr": "s:30YieldloveExternalConfiguration21RequestSenderResponseV"
+                  }
+                ],
+                "usr": "s:10PromiseKit0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30YieldloveExternalConfiguration13RequestSenderP4post3url4body7headers10PromiseKit0J0CyAA0dE8ResponseVGSS_10Foundation4DataVSgSDyS2SGtF",
+            "mangledName": "$s30YieldloveExternalConfiguration13RequestSenderP4post3url4body7headers10PromiseKit0J0CyAA0dE8ResponseVGSS_10Foundation4DataVSgSDyS2SGtF",
+            "moduleName": "YieldloveExternalConfiguration",
+            "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.RequestSender>",
+            "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.RequestSender>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "get",
+            "printedName": "get(url:headers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "PromiseKit.Promise<YieldloveExternalConfiguration.RequestSenderResponse>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestSenderResponse",
+                    "printedName": "YieldloveExternalConfiguration.RequestSenderResponse",
+                    "usr": "s:30YieldloveExternalConfiguration21RequestSenderResponseV"
+                  }
+                ],
+                "usr": "s:10PromiseKit0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30YieldloveExternalConfiguration13RequestSenderPAAE3get3url7headers10PromiseKit0I0CyAA0dE8ResponseVGSS_SDyS2SGtF",
+            "mangledName": "$s30YieldloveExternalConfiguration13RequestSenderPAAE3get3url7headers10PromiseKit0I0CyAA0dE8ResponseVGSS_SDyS2SGtF",
+            "moduleName": "YieldloveExternalConfiguration",
+            "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.RequestSender>",
+            "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.RequestSender>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "post",
+            "printedName": "post(url:body:headers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "PromiseKit.Promise<YieldloveExternalConfiguration.RequestSenderResponse>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestSenderResponse",
+                    "printedName": "YieldloveExternalConfiguration.RequestSenderResponse",
+                    "usr": "s:30YieldloveExternalConfiguration21RequestSenderResponseV"
+                  }
+                ],
+                "usr": "s:10PromiseKit0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30YieldloveExternalConfiguration13RequestSenderPAAE4post3url4body7headers10PromiseKit0J0CyAA0dE8ResponseVGSS_10Foundation4DataVSgSDyS2SGtF",
+            "mangledName": "$s30YieldloveExternalConfiguration13RequestSenderPAAE4post3url4body7headers10PromiseKit0J0CyAA0dE8ResponseVGSS_10Foundation4DataVSgSDyS2SGtF",
+            "moduleName": "YieldloveExternalConfiguration",
+            "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.RequestSender>",
+            "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.RequestSender>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:30YieldloveExternalConfiguration13RequestSenderP",
+        "mangledName": "$s30YieldloveExternalConfiguration13RequestSenderP",
+        "moduleName": "YieldloveExternalConfiguration",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HttpRequestSender",
+        "printedName": "HttpRequestSender",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "httpMethodGet",
+            "printedName": "httpMethodGet",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration17HttpRequestSenderC13httpMethodGetSSvpZ",
+            "mangledName": "$s30YieldloveExternalConfiguration17HttpRequestSenderC13httpMethodGetSSvpZ",
+            "moduleName": "YieldloveExternalConfiguration",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration17HttpRequestSenderC13httpMethodGetSSvgZ",
+                "mangledName": "$s30YieldloveExternalConfiguration17HttpRequestSenderC13httpMethodGetSSvgZ",
+                "moduleName": "YieldloveExternalConfiguration",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "httpMethodPost",
+            "printedName": "httpMethodPost",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration17HttpRequestSenderC14httpMethodPostSSvpZ",
+            "mangledName": "$s30YieldloveExternalConfiguration17HttpRequestSenderC14httpMethodPostSSvpZ",
+            "moduleName": "YieldloveExternalConfiguration",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration17HttpRequestSenderC14httpMethodPostSSvgZ",
+                "mangledName": "$s30YieldloveExternalConfiguration17HttpRequestSenderC14httpMethodPostSSvgZ",
+                "moduleName": "YieldloveExternalConfiguration",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(dispatchQueue:configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HttpRequestSender",
+                "printedName": "YieldloveExternalConfiguration.HttpRequestSender",
+                "usr": "s:30YieldloveExternalConfiguration17HttpRequestSenderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionConfiguration",
+                "printedName": "Foundation.URLSessionConfiguration",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)NSURLSessionConfiguration"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:30YieldloveExternalConfiguration17HttpRequestSenderC13dispatchQueue13configurationACSo03OS_G6_queueC_So012NSURLSessionC0Ctcfc",
+            "mangledName": "$s30YieldloveExternalConfiguration17HttpRequestSenderC13dispatchQueue13configurationACSo03OS_G6_queueC_So012NSURLSessionC0Ctcfc",
+            "moduleName": "YieldloveExternalConfiguration",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "get",
+            "printedName": "get(url:headers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "PromiseKit.Promise<YieldloveExternalConfiguration.RequestSenderResponse>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestSenderResponse",
+                    "printedName": "YieldloveExternalConfiguration.RequestSenderResponse",
+                    "usr": "s:30YieldloveExternalConfiguration21RequestSenderResponseV"
+                  }
+                ],
+                "usr": "s:10PromiseKit0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30YieldloveExternalConfiguration17HttpRequestSenderC3get3url7headers10PromiseKit0J0CyAA0eF8ResponseVGSS_SDyS2SGtF",
+            "mangledName": "$s30YieldloveExternalConfiguration17HttpRequestSenderC3get3url7headers10PromiseKit0J0CyAA0eF8ResponseVGSS_SDyS2SGtF",
+            "moduleName": "YieldloveExternalConfiguration",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "post",
+            "printedName": "post(url:body:headers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "PromiseKit.Promise<YieldloveExternalConfiguration.RequestSenderResponse>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestSenderResponse",
+                    "printedName": "YieldloveExternalConfiguration.RequestSenderResponse",
+                    "usr": "s:30YieldloveExternalConfiguration21RequestSenderResponseV"
+                  }
+                ],
+                "usr": "s:10PromiseKit0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30YieldloveExternalConfiguration17HttpRequestSenderC4post3url4body7headers10PromiseKit0K0CyAA0eF8ResponseVGSS_10Foundation4DataVSgSDyS2SGtF",
+            "mangledName": "$s30YieldloveExternalConfiguration17HttpRequestSenderC4post3url4body7headers10PromiseKit0K0CyAA0eF8ResponseVGSS_10Foundation4DataVSgSDyS2SGtF",
+            "moduleName": "YieldloveExternalConfiguration",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:30YieldloveExternalConfiguration17HttpRequestSenderC",
+        "mangledName": "$s30YieldloveExternalConfiguration17HttpRequestSenderC",
+        "moduleName": "YieldloveExternalConfiguration",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "RequestSender",
+            "printedName": "RequestSender",
+            "usr": "s:30YieldloveExternalConfiguration13RequestSenderP",
+            "mangledName": "$s30YieldloveExternalConfiguration13RequestSenderP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PromiseKit",
+        "printedName": "PromiseKit",
+        "declKind": "Import",
+        "moduleName": "YieldloveExternalConfiguration"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConfigurableConsentData",
+        "printedName": "ConfigurableConsentData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "accountId",
+            "printedName": "accountId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration23ConfigurableConsentDataP9accountIdSSvp",
+            "mangledName": "$s30YieldloveExternalConfiguration23ConfigurableConsentDataP9accountIdSSvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration23ConfigurableConsentDataP9accountIdSSvg",
+                "mangledName": "$s30YieldloveExternalConfiguration23ConfigurableConsentDataP9accountIdSSvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration23ConfigurableConsentDataP9accountIdSSvs",
+                "mangledName": "$s30YieldloveExternalConfiguration23ConfigurableConsentDataP9accountIdSSvs",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration23ConfigurableConsentDataP9accountIdSSvM",
+                "mangledName": "$s30YieldloveExternalConfiguration23ConfigurableConsentDataP9accountIdSSvM",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isActive",
+            "printedName": "isActive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration23ConfigurableConsentDataP8isActiveSbvp",
+            "mangledName": "$s30YieldloveExternalConfiguration23ConfigurableConsentDataP8isActiveSbvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration23ConfigurableConsentDataP8isActiveSbvg",
+                "mangledName": "$s30YieldloveExternalConfiguration23ConfigurableConsentDataP8isActiveSbvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration23ConfigurableConsentDataP8isActiveSbvs",
+                "mangledName": "$s30YieldloveExternalConfiguration23ConfigurableConsentDataP8isActiveSbvs",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration23ConfigurableConsentDataP8isActiveSbvM",
+                "mangledName": "$s30YieldloveExternalConfiguration23ConfigurableConsentDataP8isActiveSbvM",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "propertyId",
+            "printedName": "propertyId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration23ConfigurableConsentDataP10propertyIdSivp",
+            "mangledName": "$s30YieldloveExternalConfiguration23ConfigurableConsentDataP10propertyIdSivp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration23ConfigurableConsentDataP10propertyIdSivg",
+                "mangledName": "$s30YieldloveExternalConfiguration23ConfigurableConsentDataP10propertyIdSivg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration23ConfigurableConsentDataP10propertyIdSivs",
+                "mangledName": "$s30YieldloveExternalConfiguration23ConfigurableConsentDataP10propertyIdSivs",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration23ConfigurableConsentDataP10propertyIdSivM",
+                "mangledName": "$s30YieldloveExternalConfiguration23ConfigurableConsentDataP10propertyIdSivM",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "propertyName",
+            "printedName": "propertyName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration23ConfigurableConsentDataP12propertyNameSSvp",
+            "mangledName": "$s30YieldloveExternalConfiguration23ConfigurableConsentDataP12propertyNameSSvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration23ConfigurableConsentDataP12propertyNameSSvg",
+                "mangledName": "$s30YieldloveExternalConfiguration23ConfigurableConsentDataP12propertyNameSSvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration23ConfigurableConsentDataP12propertyNameSSvs",
+                "mangledName": "$s30YieldloveExternalConfiguration23ConfigurableConsentDataP12propertyNameSSvs",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration23ConfigurableConsentDataP12propertyNameSSvM",
+                "mangledName": "$s30YieldloveExternalConfiguration23ConfigurableConsentDataP12propertyNameSSvM",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "privacyManagerId",
+            "printedName": "privacyManagerId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30YieldloveExternalConfiguration23ConfigurableConsentDataP16privacyManagerIdSSvp",
+            "mangledName": "$s30YieldloveExternalConfiguration23ConfigurableConsentDataP16privacyManagerIdSSvp",
+            "moduleName": "YieldloveExternalConfiguration",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration23ConfigurableConsentDataP16privacyManagerIdSSvg",
+                "mangledName": "$s30YieldloveExternalConfiguration23ConfigurableConsentDataP16privacyManagerIdSSvg",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration23ConfigurableConsentDataP16privacyManagerIdSSvs",
+                "mangledName": "$s30YieldloveExternalConfiguration23ConfigurableConsentDataP16privacyManagerIdSSvs",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30YieldloveExternalConfiguration23ConfigurableConsentDataP16privacyManagerIdSSvM",
+                "mangledName": "$s30YieldloveExternalConfiguration23ConfigurableConsentDataP16privacyManagerIdSSvM",
+                "moduleName": "YieldloveExternalConfiguration",
+                "genericSig": "<τ_0_0 where τ_0_0 : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "sugared_genericSig": "<Self where Self : YieldloveExternalConfiguration.ConfigurableConsentData>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:30YieldloveExternalConfiguration23ConfigurableConsentDataP",
+        "mangledName": "$s30YieldloveExternalConfiguration23ConfigurableConsentDataP",
+        "moduleName": "YieldloveExternalConfiguration",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YieldloveExternalConfiguration",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PromiseKit",
+        "printedName": "PromiseKit",
+        "declKind": "Import",
+        "moduleName": "YieldloveExternalConfiguration"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "YieldloveExternalConfiguration"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Promise",
+        "printedName": "Promise",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "runOnAnotherThread",
+            "printedName": "runOnAnotherThread(call:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "PromiseKit.Promise<τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:10PromiseKit0A0C"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() throws -> τ_1_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10PromiseKit0A0C30YieldloveExternalConfigurationypRszlE18runOnAnotherThread4callACyqd__Gqd__yKc_tlFZ",
+            "mangledName": "$s10PromiseKit0A0C30YieldloveExternalConfigurationypRszlE18runOnAnotherThread4callACyqd__Gqd__yKc_tlFZ",
+            "moduleName": "YieldloveExternalConfiguration",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 == Any>",
+            "sugared_genericSig": "<T, T where T == Any>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10PromiseKit0A0C",
+        "mangledName": "$s10PromiseKit0A0C",
+        "moduleName": "PromiseKit",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "Final"
+        ],
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Thenable",
+            "printedName": "Thenable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "T",
+                "printedName": "T",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10PromiseKit8ThenableP",
+            "mangledName": "$s10PromiseKit8ThenableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CatchMixin",
+            "printedName": "CatchMixin",
+            "usr": "s:10PromiseKit10CatchMixinP",
+            "mangledName": "$s10PromiseKit10CatchMixinP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/API\/BannerSizes.swift",
+      "kind": "Array",
+      "offset": 89,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/API\/BannerSizes.swift",
+      "kind": "Array",
+      "offset": 120,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/API\/BannerSizes.swift",
+      "kind": "Array",
+      "offset": 260,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/API\/BannerSizes.swift",
+      "kind": "Array",
+      "offset": 305,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/ConfigTimestamp\/ConfigTimestampUserDefaultsDao.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 29,
+      "value": "\"ExternalConfigLastFetchInMs\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/API\/ExternalConfigurationManagerBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 155,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/ConfigUserDefaults\/ConfigUserDefaultsDao.swift",
+      "kind": "StringLiteral",
+      "offset": 236,
+      "length": 16,
+      "value": "\"ExternalConfig\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/ExternalConfigConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 74,
+      "length": 6,
+      "value": "900000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/ExternalConfigConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 134,
+      "length": 5,
+      "value": "\"SDI\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/ExternalConfigConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 176,
+      "length": 11,
+      "value": "\"#appName#\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/ExternalConfigConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 219,
+      "length": 103,
+      "value": "\"https:\/\/cdn.stroeerdigitalgroup.de\/sdk\/live\/\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/ExternalConfigConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 309,
+      "length": 1,
+      "value": "\"\/config.json\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/UrlBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 80,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/AdSlotData.swift",
+      "kind": "StringLiteral",
+      "offset": 41,
+      "length": 5,
+      "value": "\"SDI\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/AdSlotData.swift",
+      "kind": "StringLiteral",
+      "offset": 67,
+      "length": 10,
+      "value": "\"flexible\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/AdSlotData.swift",
+      "kind": "StringLiteral",
+      "offset": 41,
+      "length": 5,
+      "value": "\"SDI\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/AdSlotData.swift",
+      "kind": "StringLiteral",
+      "offset": 67,
+      "length": 10,
+      "value": "\"flexible\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/API\/HttpRequestSender.swift",
+      "kind": "Dictionary",
+      "offset": 1233,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/API\/HttpRequestSender.swift",
+      "kind": "Dictionary",
+      "offset": 1393,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/API\/HttpRequestSender.swift",
+      "kind": "StringLiteral",
+      "offset": 1592,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/API\/HttpRequestSender.swift",
+      "kind": "StringLiteral",
+      "offset": 1637,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/API\/HttpRequestSender.swift",
+      "kind": "Dictionary",
+      "offset": 2053,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/API\/HttpRequestSender.swift",
+      "kind": "Dictionary",
+      "offset": 2802,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/ExternalConfigurationParser.swift",
+      "kind": "Dictionary",
+      "offset": 199,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/ExternalConfigurationParser.swift",
+      "kind": "BooleanLiteral",
+      "offset": 257,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/ExternalConfigurationParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1275,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/ExternalConfigurationParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1321,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/ExternalConfigurationParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1326,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/ExternalConfigurationParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1331,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/ExternalConfigurationParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1336,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/ExternalConfigurationParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1400,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ad-integration-ios-app\/ad-integration-ios-app\/YieldloveExternalConfiguration\/YieldloveExternalConfiguration\/Classes\/ExternalConfigurationParser.swift",
+      "kind": "StringLiteral",
+      "offset": 6275,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

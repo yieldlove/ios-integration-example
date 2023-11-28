@@ -4,89 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Assets.car</key>
-		<data>
-		JnyeOcIcRfx6ROKlM9MxjWuWJZU=
-		</data>
-		<key>ClickthroughBrowserView.nib</key>
-		<data>
-		SfLTn3xBAx80tpxilm2XbaNWGLY=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		f2AU5qaPTThCwK0/RhjUsacGyQo=
-		</data>
-		<key>companion.html</key>
-		<data>
-		NhLCGomJdkcbLTXc1GHXRF2JSzs=
-		</data>
-		<key>mraid.js</key>
-		<data>
-		w/U1CCucLpP/H2bl8eyI6hhGRso=
-		</data>
-		<key>omsdk.js</key>
-		<data>
-		JhsO+6euGIUDLIFsRS3mJUflw58=
+		/gE064nPkswZv7Xb6XumVlAtjLQ=
 		</data>
 	</dict>
 	<key>files2</key>
-	<dict>
-		<key>Assets.car</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JnyeOcIcRfx6ROKlM9MxjWuWJZU=
-			</data>
-			<key>hash2</key>
-			<data>
-			kyzfbAXbz+BCExUVjnOeWc+n1JHKYF9ceObQHe+XmTs=
-			</data>
-		</dict>
-		<key>ClickthroughBrowserView.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			SfLTn3xBAx80tpxilm2XbaNWGLY=
-			</data>
-			<key>hash2</key>
-			<data>
-			uOcsyOiiKpOJRSkmtwxtUlT1xtTIE6aln9LPeEffA+Q=
-			</data>
-		</dict>
-		<key>companion.html</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NhLCGomJdkcbLTXc1GHXRF2JSzs=
-			</data>
-			<key>hash2</key>
-			<data>
-			UsYyo6mmGwMOG5UV8/U9wCXXmIMMgtemG022RTT6plo=
-			</data>
-		</dict>
-		<key>mraid.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			w/U1CCucLpP/H2bl8eyI6hhGRso=
-			</data>
-			<key>hash2</key>
-			<data>
-			fmiQYqOzEVjTDwJr3YyfzYPTVXu1A2DgTcbK6dGeiJM=
-			</data>
-		</dict>
-		<key>omsdk.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JhsO+6euGIUDLIFsRS3mJUflw58=
-			</data>
-			<key>hash2</key>
-			<data>
-			YnS1veeH77fFHXpwqz2rfGlnoJ4S9TojrsO6Vevu+xQ=
-			</data>
-		</dict>
-	</dict>
+	<dict/>
 	<key>rules</key>
 	<dict>
 		<key>^.*</key>

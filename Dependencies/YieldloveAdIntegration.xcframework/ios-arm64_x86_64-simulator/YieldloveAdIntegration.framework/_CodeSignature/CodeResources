@@ -4,77 +4,57 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/PrebidMobile.framework/Assets.car</key>
-		<data>
-		JnyeOcIcRfx6ROKlM9MxjWuWJZU=
-		</data>
-		<key>Frameworks/PrebidMobile.framework/ClickthroughBrowserView.nib</key>
-		<data>
-		SfLTn3xBAx80tpxilm2XbaNWGLY=
-		</data>
 		<key>Frameworks/PrebidMobile.framework/Info.plist</key>
 		<data>
-		f2AU5qaPTThCwK0/RhjUsacGyQo=
+		/gE064nPkswZv7Xb6XumVlAtjLQ=
 		</data>
 		<key>Frameworks/PrebidMobile.framework/PrebidMobile</key>
 		<data>
-		vowEDnlYyRuoZPIOVlKNiBgEtzM=
+		B2OdWJWNpCOpeccSHz0icHjHjXI=
 		</data>
 		<key>Frameworks/PrebidMobile.framework/_CodeSignature/CodeResources</key>
 		<data>
-		c7xxxQGgy+K0Wvaz0nVioJQy1cA=
-		</data>
-		<key>Frameworks/PrebidMobile.framework/companion.html</key>
-		<data>
-		NhLCGomJdkcbLTXc1GHXRF2JSzs=
-		</data>
-		<key>Frameworks/PrebidMobile.framework/mraid.js</key>
-		<data>
-		w/U1CCucLpP/H2bl8eyI6hhGRso=
-		</data>
-		<key>Frameworks/PrebidMobile.framework/omsdk.js</key>
-		<data>
-		JhsO+6euGIUDLIFsRS3mJUflw58=
+		3v/dQnRBNhZYaa7ExxAz8xDzgus=
 		</data>
 		<key>Frameworks/PromiseKit.framework/Info.plist</key>
 		<data>
-		eR5LxpbMLxGH2rfHRpP+gkvLpvQ=
+		4ZpXUlgV0xwuZcqyycGyFqU9Ktk=
 		</data>
 		<key>Frameworks/PromiseKit.framework/PromiseKit</key>
 		<data>
-		zfg2fRQanmp3I1pbY69JE4Ai3KU=
+		UsXEFM9yj+Ov7EKIlItZsf6jork=
 		</data>
 		<key>Frameworks/PromiseKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Sxpblvhj+2RpHC4sHYvdXmrBjio=
+		khrqJ0eNTmU3Nzgwu+7pAIRF4BM=
 		</data>
 		<key>Frameworks/YieldloveExternalConfiguration.framework/Frameworks/PromiseKit.framework/Info.plist</key>
 		<data>
-		eR5LxpbMLxGH2rfHRpP+gkvLpvQ=
+		4ZpXUlgV0xwuZcqyycGyFqU9Ktk=
 		</data>
 		<key>Frameworks/YieldloveExternalConfiguration.framework/Frameworks/PromiseKit.framework/PromiseKit</key>
 		<data>
-		nRN6YirwiYubAG/VDm6a8zlqWQ8=
+		HH14DNxwzwXNcrGOPZzVgc2WqKs=
 		</data>
 		<key>Frameworks/YieldloveExternalConfiguration.framework/Frameworks/PromiseKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Sxpblvhj+2RpHC4sHYvdXmrBjio=
+		khrqJ0eNTmU3Nzgwu+7pAIRF4BM=
 		</data>
 		<key>Frameworks/YieldloveExternalConfiguration.framework/Info.plist</key>
 		<data>
-		yN8ywWwDj8zE66aH9iD/+x2ueX4=
+		ULTXhhAx+AT5YUWXZE9F3uSS5A4=
 		</data>
 		<key>Frameworks/YieldloveExternalConfiguration.framework/YieldloveExternalConfiguration</key>
 		<data>
-		8TM1kMP20A2dZwj0LGkIWKKVGf0=
+		4eKqOdfCLvyhBZgUJCPIYclVgXI=
 		</data>
 		<key>Frameworks/YieldloveExternalConfiguration.framework/_CodeSignature/CodeResources</key>
 		<data>
-		j1AzpXn36XAlkBkc2IkGCaRpPQg=
+		OlPTbd+ogFlPmMSkjdUf9/MM7Gc=
 		</data>
 		<key>Headers/YieldloveAdIntegration-Swift.h</key>
 		<data>
-		YbvKuJGiztN3BjZs33orz3GoTh0=
+		tTxblMg67DuzsB6QsEevITBwlzE=
 		</data>
 		<key>Headers/YieldloveAdIntegration.h</key>
 		<data>
@@ -82,203 +62,152 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4/85YXaC5xdXwOEKIV6EhzHntlI=
+		uaOds9T2YEWG0xNpRjJbHaCcdHI=
 		</data>
 		<key>Modules/YieldloveAdIntegration.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		Eh7Gl82TcCy8ZoeJ8zvUKHYEb24=
-		</data>
-		<key>Modules/YieldloveAdIntegration.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<data>
-		Eh7Gl82TcCy8ZoeJ8zvUKHYEb24=
+		/vOaE/dsjXhO/1m6RGn+BVBpzio=
 		</data>
 		<key>Modules/YieldloveAdIntegration.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		6MRCRKCFQfbk1j9ee99cE9wUfh8=
+		GfLQZ6aJj4mLjyz6ihC6Q+fUSSI=
 		</data>
-		<key>Modules/YieldloveAdIntegration.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<key>Modules/YieldloveAdIntegration.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		6MRCRKCFQfbk1j9ee99cE9wUfh8=
+		WfV7PVfW4I2mnqsoFW8jAQjmxc0=
+		</data>
+		<key>Modules/YieldloveAdIntegration.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		BCvizWdzwBUV5GeMy40CYGFowYc=
 		</data>
 		<key>Modules/YieldloveAdIntegration.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		eV2WLpZh2cB+yaqD1/8WBeeQ/Y4=
+		SdaLK1kux2VOwaoNGqXa5WmPHsA=
 		</data>
 		<key>Modules/YieldloveAdIntegration.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		FbF1caHZUmZGMEqxBjbI4b75aKI=
+		BCvizWdzwBUV5GeMy40CYGFowYc=
 		</data>
 		<key>Modules/YieldloveAdIntegration.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Q2pKuso8NTWtdcSfvAuP7OHGLUk=
+		pORaBrNUnCc90ctXO408tpi4zAw=
 		</data>
-		<key>Modules/YieldloveAdIntegration.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/YieldloveAdIntegration.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		eV2WLpZh2cB+yaqD1/8WBeeQ/Y4=
+		WfV7PVfW4I2mnqsoFW8jAQjmxc0=
 		</data>
-		<key>Modules/YieldloveAdIntegration.swiftmodule/arm64.swiftinterface</key>
+		<key>Modules/YieldloveAdIntegration.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		FbF1caHZUmZGMEqxBjbI4b75aKI=
-		</data>
-		<key>Modules/YieldloveAdIntegration.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		Q2pKuso8NTWtdcSfvAuP7OHGLUk=
+		wsswTp1fWhD7/Nwclk5+6GaeMU0=
 		</data>
 		<key>Modules/YieldloveAdIntegration.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		TkUv36h5QgG+eYU3Ozmyr9UJ+KE=
+		O2iq6hDZxcubrEk5tK/7RelLDgg=
 		</data>
 		<key>Modules/YieldloveAdIntegration.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		uDkt8VtvGCcZ7PHHdPtcmw6JFzk=
+		wsswTp1fWhD7/Nwclk5+6GaeMU0=
 		</data>
 		<key>Modules/YieldloveAdIntegration.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		j5zhKwbhdKb8r6AIsvbsZ3Y3zmE=
-		</data>
-		<key>Modules/YieldloveAdIntegration.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		TkUv36h5QgG+eYU3Ozmyr9UJ+KE=
-		</data>
-		<key>Modules/YieldloveAdIntegration.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		uDkt8VtvGCcZ7PHHdPtcmw6JFzk=
-		</data>
-		<key>Modules/YieldloveAdIntegration.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		j5zhKwbhdKb8r6AIsvbsZ3Y3zmE=
+		X/5DfvE9y/F/sb/1zr4knN9rAgs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		X3rNQ6OTFxHRgjoEy6cqNfmUwH4=
+		71423DeBIdbH3vShFtrsw+AmoLs=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/PrebidMobile.framework/Assets.car</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kyzfbAXbz+BCExUVjnOeWc+n1JHKYF9ceObQHe+XmTs=
-			</data>
-		</dict>
-		<key>Frameworks/PrebidMobile.framework/ClickthroughBrowserView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			uOcsyOiiKpOJRSkmtwxtUlT1xtTIE6aln9LPeEffA+Q=
-			</data>
-		</dict>
 		<key>Frameworks/PrebidMobile.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ci5Ao1DhdznSKHCo5IlcA86Dl0uiFybZX5VKL3os6o8=
+			i0QotSrVF6EIFlH6w0E5bTNXSUM1gcJYF9yxhZ/BMBY=
 			</data>
 		</dict>
 		<key>Frameworks/PrebidMobile.framework/PrebidMobile</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			clXget6/Xw7fjE6kONHhmJgkmq9rQPbK2+iXwGrXFjM=
+			xa8Ic8RlrbLIGFL0ZbeY/AxojjmOektMTWiNRDOw7IE=
 			</data>
 		</dict>
 		<key>Frameworks/PrebidMobile.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7ARj9vA1Rhkl1ZMUxkrb5FyTQgq7Ulp/ZUMgKYcMhKA=
-			</data>
-		</dict>
-		<key>Frameworks/PrebidMobile.framework/companion.html</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UsYyo6mmGwMOG5UV8/U9wCXXmIMMgtemG022RTT6plo=
-			</data>
-		</dict>
-		<key>Frameworks/PrebidMobile.framework/mraid.js</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fmiQYqOzEVjTDwJr3YyfzYPTVXu1A2DgTcbK6dGeiJM=
-			</data>
-		</dict>
-		<key>Frameworks/PrebidMobile.framework/omsdk.js</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YnS1veeH77fFHXpwqz2rfGlnoJ4S9TojrsO6Vevu+xQ=
+			LjlvNJkTiedvqdKFAwBOOXRo7nN/f6GwkfV+B7/Qs2Y=
 			</data>
 		</dict>
 		<key>Frameworks/PromiseKit.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a+eIcSbe1bc/cAzD7EZuFjv4A2t8N2XnS3wvLm0EEwM=
+			QxSwMWThlBixb4l5kfTtqNM1jmSWvQv+KGHhxvh1xXk=
 			</data>
 		</dict>
 		<key>Frameworks/PromiseKit.framework/PromiseKit</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R//AwYFB+HBNvHnklvtiwBQrTdtNEmYGnKKrkhPXtuE=
+			+4MFUiyQ//7x5TaDLNMvaQO3uL1q/JpTviDn4cPOjvA=
 			</data>
 		</dict>
 		<key>Frameworks/PromiseKit.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PHy4wnDd3g0Tf4RxJaE6b16KDa/K1TOKFo4x0s5YsRk=
+			X5oT9gq44QDMPetzMhX2zGrq5GfNThgfZhUmDoLRmHc=
 			</data>
 		</dict>
 		<key>Frameworks/YieldloveExternalConfiguration.framework/Frameworks/PromiseKit.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a+eIcSbe1bc/cAzD7EZuFjv4A2t8N2XnS3wvLm0EEwM=
+			QxSwMWThlBixb4l5kfTtqNM1jmSWvQv+KGHhxvh1xXk=
 			</data>
 		</dict>
 		<key>Frameworks/YieldloveExternalConfiguration.framework/Frameworks/PromiseKit.framework/PromiseKit</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wiof1BqhUL/cjLQbhsg80uuzV3shfyg0HvdbfbVJSWE=
+			BjAXkSubR5GJ+Rv+0+ApEXrAIbJito9bS42sMYrj6as=
 			</data>
 		</dict>
 		<key>Frameworks/YieldloveExternalConfiguration.framework/Frameworks/PromiseKit.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PHy4wnDd3g0Tf4RxJaE6b16KDa/K1TOKFo4x0s5YsRk=
+			X5oT9gq44QDMPetzMhX2zGrq5GfNThgfZhUmDoLRmHc=
 			</data>
 		</dict>
 		<key>Frameworks/YieldloveExternalConfiguration.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ngJVyY9tSuEQ2gNri4awSldJg2216tya8tbSIz3zWwc=
+			z2ZVqMNSrnqYzcTVim4Sr+Gdbo8luaOMQNtCqJkBYPk=
 			</data>
 		</dict>
 		<key>Frameworks/YieldloveExternalConfiguration.framework/YieldloveExternalConfiguration</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oYyI0xQJ1nXsAjep9bBbXYP8RUKoIbed7pP5qeUgVQM=
+			9JG6INRAZvKt4IDOXPQUPmz6eJxALsfqWLsTvEnvFEI=
 			</data>
 		</dict>
 		<key>Frameworks/YieldloveExternalConfiguration.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4WMWF0EJe+xyAz7eK6d8mc5+R7WSJ/gDViq5lRVruo0=
+			mwtC/CJTxbzu+VzGgAG1IF8DkDbW0tcmWO3qLppRTQI=
 			</data>
 		</dict>
 		<key>Headers/YieldloveAdIntegration-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xiAKQzjaDCECchOnNy2ETjAsoXu5pZTrgSVwU6jaEVs=
+			fuOEHITOICT1Vh5oakglmLf0Blwey3YtohGogpIuY+Y=
 			</data>
 		</dict>
 		<key>Headers/YieldloveAdIntegration.h</key>
@@ -292,119 +221,91 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			injNvASzAMUbKsjdmcJuPkWU9FPjjthFGT1VJiS6TM4=
-			</data>
-		</dict>
-		<key>Modules/YieldloveAdIntegration.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			injNvASzAMUbKsjdmcJuPkWU9FPjjthFGT1VJiS6TM4=
+			cowt9tEquNB+Qv3EAwFHPOJB8sPzGQa6ibzGoEkep0M=
 			</data>
 		</dict>
 		<key>Modules/YieldloveAdIntegration.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4HMrRWdHDE9ApmFaOzN2tVi3P8pSR1BJCI7xQQoRi0c=
+			TRJr2gw32yO0JT556i3s0ZV5u+OHwlN//89Lv/C1j+k=
 			</data>
 		</dict>
-		<key>Modules/YieldloveAdIntegration.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<key>Modules/YieldloveAdIntegration.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4HMrRWdHDE9ApmFaOzN2tVi3P8pSR1BJCI7xQQoRi0c=
+			m+1C8ROdIlxNh/R3KNVlZlrq+f4HOK71sbOubBrG+B4=
+			</data>
+		</dict>
+		<key>Modules/YieldloveAdIntegration.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YoKJrV8SgJv7U3tYBu66vDZCXxseaXLt78gzWnULFYk=
 			</data>
 		</dict>
 		<key>Modules/YieldloveAdIntegration.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RW2BfAsT2B128lzyIrOHYLyj4tbu1ut0saQoCF3kD2E=
+			4iE0K8c3iftTxa7ALFLFlWl0xVocYWs7A9173RwLDL8=
 			</data>
 		</dict>
 		<key>Modules/YieldloveAdIntegration.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D3ck1DwS+hXTmvegLRzIhmnzntY+x85Kgy+x3tdh6CI=
+			YoKJrV8SgJv7U3tYBu66vDZCXxseaXLt78gzWnULFYk=
 			</data>
 		</dict>
 		<key>Modules/YieldloveAdIntegration.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lb37YOjjc5k7O0JMKGZELyd9HAX0soZmwtavjuuYu6o=
+			sRnlj7L/gYTELQM4KidEOCgEhAo2xi1miR/DlrZEU9I=
 			</data>
 		</dict>
-		<key>Modules/YieldloveAdIntegration.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/YieldloveAdIntegration.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RW2BfAsT2B128lzyIrOHYLyj4tbu1ut0saQoCF3kD2E=
+			m+1C8ROdIlxNh/R3KNVlZlrq+f4HOK71sbOubBrG+B4=
 			</data>
 		</dict>
-		<key>Modules/YieldloveAdIntegration.swiftmodule/arm64.swiftinterface</key>
+		<key>Modules/YieldloveAdIntegration.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D3ck1DwS+hXTmvegLRzIhmnzntY+x85Kgy+x3tdh6CI=
-			</data>
-		</dict>
-		<key>Modules/YieldloveAdIntegration.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lb37YOjjc5k7O0JMKGZELyd9HAX0soZmwtavjuuYu6o=
+			beSXoEJs7qXX+vuK+rvi2d2gvrmh38OIwt5rQHXteJs=
 			</data>
 		</dict>
 		<key>Modules/YieldloveAdIntegration.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6SNl32ZlxGHNNI3m71VuehVVXKm1UEWP4YC07mMC0Cc=
+			fKWidYl7VkovRjZ+VObu8cL56Unt09/eXBSf98Pfi/0=
 			</data>
 		</dict>
 		<key>Modules/YieldloveAdIntegration.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hQhkCTQtY8yh0IPSk4mxusSFckitbvgD+Ea9GC6n+Bw=
+			beSXoEJs7qXX+vuK+rvi2d2gvrmh38OIwt5rQHXteJs=
 			</data>
 		</dict>
 		<key>Modules/YieldloveAdIntegration.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EDz6++fU3sAAIyBUznZaFehwwfKsWat+b3fqOQhL9Qw=
-			</data>
-		</dict>
-		<key>Modules/YieldloveAdIntegration.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6SNl32ZlxGHNNI3m71VuehVVXKm1UEWP4YC07mMC0Cc=
-			</data>
-		</dict>
-		<key>Modules/YieldloveAdIntegration.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hQhkCTQtY8yh0IPSk4mxusSFckitbvgD+Ea9GC6n+Bw=
-			</data>
-		</dict>
-		<key>Modules/YieldloveAdIntegration.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EDz6++fU3sAAIyBUznZaFehwwfKsWat+b3fqOQhL9Qw=
+			wt0mJemfXsvXTYDMaSXhLLgHzKXiKiBC17vad22OnRY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5XbxwEvyxNpeqd2/qAaQjByKcMqxBmBsDDxHtTCtqtY=
+			q/wvUg/YiR7eF1AzWdNqDdKx1AoQd9tUIbT6lWvu1XE=
 			</data>
 		</dict>
 	</dict>

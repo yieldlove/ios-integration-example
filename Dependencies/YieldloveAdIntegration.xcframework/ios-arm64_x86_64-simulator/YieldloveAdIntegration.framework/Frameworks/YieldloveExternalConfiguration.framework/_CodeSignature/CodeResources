@@ -6,19 +6,19 @@
 	<dict>
 		<key>Frameworks/PromiseKit.framework/Info.plist</key>
 		<data>
-		eR5LxpbMLxGH2rfHRpP+gkvLpvQ=
+		4ZpXUlgV0xwuZcqyycGyFqU9Ktk=
 		</data>
 		<key>Frameworks/PromiseKit.framework/PromiseKit</key>
 		<data>
-		nRN6YirwiYubAG/VDm6a8zlqWQ8=
+		HH14DNxwzwXNcrGOPZzVgc2WqKs=
 		</data>
 		<key>Frameworks/PromiseKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Sxpblvhj+2RpHC4sHYvdXmrBjio=
+		khrqJ0eNTmU3Nzgwu+7pAIRF4BM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		yN8ywWwDj8zE66aH9iD/+x2ueX4=
+		ULTXhhAx+AT5YUWXZE9F3uSS5A4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -27,21 +27,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a+eIcSbe1bc/cAzD7EZuFjv4A2t8N2XnS3wvLm0EEwM=
+			QxSwMWThlBixb4l5kfTtqNM1jmSWvQv+KGHhxvh1xXk=
 			</data>
 		</dict>
 		<key>Frameworks/PromiseKit.framework/PromiseKit</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wiof1BqhUL/cjLQbhsg80uuzV3shfyg0HvdbfbVJSWE=
+			BjAXkSubR5GJ+Rv+0+ApEXrAIbJito9bS42sMYrj6as=
 			</data>
 		</dict>
 		<key>Frameworks/PromiseKit.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PHy4wnDd3g0Tf4RxJaE6b16KDa/K1TOKFo4x0s5YsRk=
+			X5oT9gq44QDMPetzMhX2zGrq5GfNThgfZhUmDoLRmHc=
 			</data>
 		</dict>
 	</dict>
