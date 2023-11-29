@@ -12,7 +12,6 @@
 #import <GoogleMobileAds/GADAudioVideoManager.h>
 #import <GoogleMobileAds/GADInitializationStatus.h>
 #import <GoogleMobileAds/GADRequestConfiguration.h>
-#import <GoogleMobileAds/Mediation/GADVersionNumber.h>
 
 /// A block called with the initialization status when [GADMobileAds startWithCompletionHandler:]
 /// completes or times out.
@@ -28,23 +27,18 @@ typedef void (^GADAdInspectorCompletionHandler)(NSError *_Nullable error);
 /// Returns the shared GADMobileAds instance.
 + (nonnull GADMobileAds *)sharedInstance;
 
-/// Returns the Google Mobile Ads SDK's version number.
-@property(nonatomic, readonly) GADVersionNumber versionNumber;
+/// Returns the version of the SDK.
+@property(nonatomic, nonnull, readonly) NSString *sdkVersion;
 
 /// The application's audio volume. Affects audio volumes of all ads relative to other audio output.
-/// Valid ad volume values range from 0.0 (silent) to 1.0 (current device volume). Defaults to 1.0.
-///
-/// Warning: Lowering your app's audio volume reduces video ad eligibility and may reduce your app's
-/// ad revenue. You should only utilize this API if your app provides custom volume controls to the
-/// user, and you should reflect the user's volume choice in this API.
+/// Valid ad volume values range from 0.0 (silent) to 1.0 (current device volume). Use this method
+/// only if your application has its own volume controls (e.g., custom music or sound effect
+/// volumes). Defaults to 1.0.
 @property(nonatomic, assign) float applicationVolume;
 
-/// Indicates whether the application's audio is muted. Affects initial mute state for all ads.
-/// Defaults to NO.
-///
-/// Warning: Muting your application reduces video ad eligibility and may reduce your app's ad
-/// revenue. You should only utilize this API if your app provides a custom mute control to the
-/// user, and you should reflect the user's mute decision in this API.
+/// Indicates whether the application's audio is muted. Affects initial mute state for all ads. Use
+/// this method only if your application has its own volume controls (e.g., custom music or sound
+/// effect muting). Defaults to NO.
 @property(nonatomic, assign) BOOL applicationMuted;
 
 /// Manages the Google Mobile Ads SDK's audio and video settings.
@@ -98,11 +92,5 @@ typedef void (^GADAdInspectorCompletionHandler)(NSError *_Nullable error);
 /// Registers a web view with the Google Mobile Ads SDK to improve in-app ad monetization of ads
 /// within this web view.
 - (void)registerWebView:(nonnull WKWebView *)webView;
-
-#pragma mark Deprecated
-
-/// Returns the version of the SDK.
-@property(nonatomic, nonnull, readonly)
-    NSString *sdkVersion GAD_DEPRECATED_MSG_ATTRIBUTE("Use versionNumber property instead.");
 
 @end
