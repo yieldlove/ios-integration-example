@@ -1,7 +1,7 @@
 framework module PromiseKit {
   umbrella header "PromiseKit.h"
-
   export *
+
   module * { export * }
 }
 

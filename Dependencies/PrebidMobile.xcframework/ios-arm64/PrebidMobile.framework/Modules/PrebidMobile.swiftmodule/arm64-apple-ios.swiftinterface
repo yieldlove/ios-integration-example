@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PrebidMobile
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreLocation
@@ -14,6 +14,7 @@ import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 import ObjectiveC.runtime
 @objc public class DemandResponseInfo : ObjectiveC.NSObject {
   @objc public var fetchDemandResult: PrebidMobile.ResultCode {
@@ -26,8 +27,8 @@ import ObjectiveC.runtime
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class BannerEventHandlerStandalone : ObjectiveC.NSObject, PrebidMobile.BannerEventHandler {
-  @objc weak public var loadingDelegate: PrebidMobile.BannerEventLoadingDelegate?
-  @objc weak public var interactionDelegate: PrebidMobile.BannerEventInteractionDelegate?
+  @objc weak public var loadingDelegate: (any PrebidMobile.BannerEventLoadingDelegate)?
+  @objc weak public var interactionDelegate: (any PrebidMobile.BannerEventInteractionDelegate)?
   @objc public var adSizes: [CoreFoundation.CGSize]
   @objc public func requestAd(with bidResponse: PrebidMobile.BidResponse?)
   @objc public func trackImpression()
@@ -103,8 +104,8 @@ import ObjectiveC.runtime
   @objc deinit
 }
 @objc public protocol RewardedEventHandlerProtocol : PrebidMobile.PBMInterstitialAd {
-  @objc weak var loadingDelegate: PrebidMobile.RewardedEventLoadingDelegate? { get set }
-  @objc weak var interactionDelegate: PrebidMobile.RewardedEventInteractionDelegate? { get set }
+  @objc weak var loadingDelegate: (any PrebidMobile.RewardedEventLoadingDelegate)? { get set }
+  @objc weak var interactionDelegate: (any PrebidMobile.RewardedEventInteractionDelegate)? { get set }
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(PBMCacheManager) @objcMembers public class CacheManager : ObjectiveC.NSObject {
   @objc public static let cacheManagerExpireInterval: Swift.Double
@@ -115,8 +116,8 @@ import ObjectiveC.runtime
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class RewardedEventHandlerStandalone : ObjectiveC.NSObject, PrebidMobile.RewardedEventHandlerProtocol {
-  @objc weak public var loadingDelegate: PrebidMobile.RewardedEventLoadingDelegate?
-  @objc weak public var interactionDelegate: PrebidMobile.RewardedEventInteractionDelegate?
+  @objc weak public var loadingDelegate: (any PrebidMobile.RewardedEventLoadingDelegate)?
+  @objc weak public var interactionDelegate: (any PrebidMobile.RewardedEventInteractionDelegate)?
   @objc public var isReady: Swift.Bool {
     @objc get
   }
@@ -150,8 +151,8 @@ import ObjectiveC.runtime
   @objc deinit
 }
 @objc public protocol InterstitialEventHandlerProtocol : PrebidMobile.PBMInterstitialAd {
-  @objc weak var loadingDelegate: PrebidMobile.InterstitialEventLoadingDelegate? { get set }
-  @objc weak var interactionDelegate: PrebidMobile.InterstitialEventInteractionDelegate? { get set }
+  @objc weak var loadingDelegate: (any PrebidMobile.InterstitialEventLoadingDelegate)? { get set }
+  @objc weak var interactionDelegate: (any PrebidMobile.InterstitialEventInteractionDelegate)? { get set }
 }
 @objc(PBMServerEvent) @objcMembers public class ServerEvent : ObjectiveC.NSObject {
   @objc public init(url: Swift.String, expectedEventType: PrebidMobile.PBMTrackingEvent)
@@ -187,7 +188,7 @@ public typealias PrebidJSLibraryContentsCallback = (Swift.String?) -> ()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class MediationRewardedAdUnit : PrebidMobile.MediationBaseInterstitialAdUnit {
-  @objc public init(configId: Swift.String, mediationDelegate: PrebidMobile.PrebidMediationDelegate)
+  @objc public init(configId: Swift.String, mediationDelegate: any PrebidMobile.PrebidMediationDelegate)
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(PBMNativeMarkupRequestObject) @objcMembers public class NativeMarkupRequestObject : ObjectiveC.NSObject, Foundation.NSCopying, PrebidMobile.PBMJsonCodable {
@@ -374,7 +375,7 @@ public class VideoAdUnit : PrebidMobile.AdUnit {
   @objc public func userDidEarnReward(_ reward: ObjectiveC.NSObject?)
   @objc override public func interstitialControllerDidCloseAd(_ interstitialController: PrebidMobile.InterstitialController)
   @objc override public func callDelegate_didReceiveAd()
-  @objc override public func callDelegate_didFailToReceiveAd(with error: Swift.Error?)
+  @objc override public func callDelegate_didFailToReceiveAd(with error: (any Swift.Error)?)
   @objc override public func callDelegate_willPresentAd()
   @objc override public func callDelegate_didDismissAd()
   @objc override public func callDelegate_willLeaveApplication()
@@ -388,7 +389,7 @@ public class VideoAdUnit : PrebidMobile.AdUnit {
   @objc deinit
 }
 @objc public protocol BannerAdLoaderDelegate : ObjectiveC.NSObjectProtocol {
-  @objc var eventHandler: PrebidMobile.BannerEventHandler? { get }
+  @objc var eventHandler: (any PrebidMobile.BannerEventHandler)? { get }
   @objc func bannerAdLoader(_ bannerAdLoader: PrebidMobile.PBMBannerAdLoader, loadedAdView adView: UIKit.UIView, adSize: CoreFoundation.CGSize)
   @objc func bannerAdLoader(_ bannerAdLoader: PrebidMobile.PBMBannerAdLoader, createdDisplayView displayView: PrebidMobile.PBMDisplayView)
 }
@@ -428,7 +429,7 @@ public typealias PBMNetworkReachableBlock = (PrebidMobile.Reachability?) -> Swif
 }
 @objc public protocol InterstitialControllerLoadingDelegate : ObjectiveC.NSObjectProtocol {
   @objc func interstitialControllerDidLoadAd(_ interstitialController: PrebidMobile.InterstitialController)
-  @objc func interstitialController(_ interstitialController: PrebidMobile.InterstitialController, didFailWithError error: Swift.Error)
+  @objc func interstitialController(_ interstitialController: PrebidMobile.InterstitialController, didFailWithError error: any Swift.Error)
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class NativeEventTrackerResponse : ObjectiveC.NSObject {
   public var event: Swift.Int?
@@ -493,7 +494,7 @@ public typealias PBMNetworkReachableBlock = (PrebidMobile.Reachability?) -> Swif
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc(PBMMediationNativeUtils) @objcMembers public class MediationNativeUtils : ObjectiveC.NSObject {
-  public static func findNative(in extras: [Swift.AnyHashable : Any]) -> Swift.Result<PrebidMobile.NativeAd, Swift.Error>
+  public static func findNative(in extras: [Swift.AnyHashable : Any]) -> Swift.Result<PrebidMobile.NativeAd, any Swift.Error>
   @objc override dynamic public init()
   @objc deinit
 }
@@ -813,8 +814,8 @@ extension UIKit.UIView {
     @objc get
     @objc set
   }
-  @objc convenience public init(configId: Swift.String, mediationDelegate: PrebidMobile.PrebidMediationDelegate)
-  public init(configId: Swift.String, minSizePercentage: CoreFoundation.CGSize?, mediationDelegate: PrebidMobile.PrebidMediationDelegate)
+  @objc convenience public init(configId: Swift.String, mediationDelegate: any PrebidMobile.PrebidMediationDelegate)
+  public init(configId: Swift.String, minSizePercentage: CoreFoundation.CGSize?, mediationDelegate: any PrebidMobile.PrebidMediationDelegate)
   @objc override public var configId: Swift.String {
     @objc get
   }
@@ -870,8 +871,8 @@ extension UIKit.UIView {
   }
 }
 @_inheritsConvenienceInitializers @objc(PBMEventManager) @objcMembers public class EventManager : ObjectiveC.NSObject, PrebidMobile.PBMEventTrackerProtocol {
-  @objc public func registerTracker(_ tracker: PrebidMobile.PBMEventTrackerProtocol)
-  @objc public func unregisterTracker(_ tracker: PrebidMobile.PBMEventTrackerProtocol)
+  @objc public func registerTracker(_ tracker: any PrebidMobile.PBMEventTrackerProtocol)
+  @objc public func unregisterTracker(_ tracker: any PrebidMobile.PBMEventTrackerProtocol)
   @objc public func trackEvent(_ event: PrebidMobile.PBMTrackingEvent)
   @objc public func trackVideoAdLoaded(_ parameters: PrebidMobile.PBMVideoVerificationParameters!)
   @objc public func trackStartVideo(withDuration duration: CoreFoundation.CGFloat, volume: CoreFoundation.CGFloat)
@@ -986,7 +987,7 @@ public class VideoInterstitialAdUnit : PrebidMobile.AdUnit {
   @objc public func adLoadFlowControllerWillSendBidRequest(_ adLoadFlowController: PrebidMobile.PBMAdLoadFlowController)
   @objc public func adLoadFlowControllerWillRequestPrimaryAd(_ adLoadFlowController: PrebidMobile.PBMAdLoadFlowController)
   @objc public func adLoadFlowControllerShouldContinue(_ adLoadFlowController: PrebidMobile.PBMAdLoadFlowController) -> Swift.Bool
-  @objc public func adLoadFlowController(_ adLoadFlowController: PrebidMobile.PBMAdLoadFlowController, failedWithError error: Swift.Error?)
+  @objc public func adLoadFlowController(_ adLoadFlowController: PrebidMobile.PBMAdLoadFlowController, failedWithError error: (any Swift.Error)?)
   @objc public func trackImpression(forInterstitialController: PrebidMobile.InterstitialController)
   @objc public func interstitialControllerDidClickAd(_ interstitialController: PrebidMobile.InterstitialController)
   @objc public func interstitialControllerDidCloseAd(_ interstitialController: PrebidMobile.InterstitialController)
@@ -1002,7 +1003,7 @@ public class VideoInterstitialAdUnit : PrebidMobile.AdUnit {
   @objc public func callEventHandler_show(from controller: UIKit.UIViewController?)
   @objc public func callEventHandler_isReady() -> Swift.Bool
   @objc public func callDelegate_didReceiveAd()
-  @objc public func callDelegate_didFailToReceiveAd(with: Swift.Error?)
+  @objc public func callDelegate_didFailToReceiveAd(with: (any Swift.Error)?)
   @objc public func callDelegate_willPresentAd()
   @objc public func callDelegate_didDismissAd()
   @objc public func callDelegate_willLeaveApplication()
@@ -1014,11 +1015,11 @@ public class VideoInterstitialAdUnit : PrebidMobile.AdUnit {
   @objc deinit
 }
 @objc extension PrebidMobile.PBMError {
-  @objc dynamic public class func demandResult(from error: Swift.Error?) -> PrebidMobile.ResultCode
+  @objc dynamic public class func demandResult(from error: (any Swift.Error)?) -> PrebidMobile.ResultCode
 }
 @objc public protocol DisplayViewLoadingDelegate : ObjectiveC.NSObjectProtocol {
   @objc func displayViewDidLoadAd(_ displayView: PrebidMobile.PBMDisplayView)
-  @objc func displayView(_ displayView: PrebidMobile.PBMDisplayView, didFailWithError error: Swift.Error)
+  @objc func displayView(_ displayView: PrebidMobile.PBMDisplayView, didFailWithError error: any Swift.Error)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(PBMNativeAdConfiguration) @objcMembers public class NativeAdConfiguration : ObjectiveC.NSObject {
   @objc public var version: Swift.String
@@ -1055,7 +1056,7 @@ public class VideoInterstitialAdUnit : PrebidMobile.AdUnit {
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class BannerView : UIKit.UIView, PrebidMobile.BannerAdLoaderDelegate, PrebidMobile.AdLoadFlowControllerDelegate, PrebidMobile.BannerEventInteractionDelegate, PrebidMobile.DisplayViewInteractionDelegate {
   @_Concurrency.MainActor(unsafe) @objc final public let adUnitConfig: PrebidMobile.AdUnitConfig
-  @_Concurrency.MainActor(unsafe) @objc final public let eventHandler: PrebidMobile.BannerEventHandler?
+  @_Concurrency.MainActor(unsafe) @objc final public let eventHandler: (any PrebidMobile.BannerEventHandler)?
   @objc @_Concurrency.MainActor(unsafe) public var bannerParameters: PrebidMobile.BannerParameters {
     @objc get
   }
@@ -1084,9 +1085,9 @@ public class VideoInterstitialAdUnit : PrebidMobile.AdUnit {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: PrebidMobile.BannerViewDelegate?
-  @objc @_Concurrency.MainActor(unsafe) public init(frame: CoreFoundation.CGRect, configID: Swift.String, adSize: CoreFoundation.CGSize, eventHandler: PrebidMobile.BannerEventHandler)
-  @objc @_Concurrency.MainActor(unsafe) convenience public init(configID: Swift.String, eventHandler: PrebidMobile.BannerEventHandler)
+  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any PrebidMobile.BannerViewDelegate)?
+  @objc @_Concurrency.MainActor(unsafe) public init(frame: CoreFoundation.CGRect, configID: Swift.String, adSize: CoreFoundation.CGSize, eventHandler: any PrebidMobile.BannerEventHandler)
+  @objc @_Concurrency.MainActor(unsafe) convenience public init(configID: Swift.String, eventHandler: any PrebidMobile.BannerEventHandler)
   @objc @_Concurrency.MainActor(unsafe) convenience public init(frame: CoreFoundation.CGRect, configID: Swift.String, adSize: CoreFoundation.CGSize)
   @objc deinit
   @objc @_Concurrency.MainActor(unsafe) public func loadAd()
@@ -1131,7 +1132,7 @@ public class VideoInterstitialAdUnit : PrebidMobile.AdUnit {
   @_Concurrency.MainActor(unsafe) @objc public func didDismissModal(from displayView: PrebidMobile.PBMDisplayView)
   @_Concurrency.MainActor(unsafe) @objc public func bannerAdLoader(_ bannerAdLoader: PrebidMobile.PBMBannerAdLoader, loadedAdView adView: UIKit.UIView, adSize: CoreFoundation.CGSize)
   @_Concurrency.MainActor(unsafe) @objc public func bannerAdLoader(_ bannerAdLoader: PrebidMobile.PBMBannerAdLoader, createdDisplayView displayView: PrebidMobile.PBMDisplayView)
-  @_Concurrency.MainActor(unsafe) @objc public func adLoadFlowController(_ adLoadFlowController: PrebidMobile.PBMAdLoadFlowController, failedWithError error: Swift.Error?)
+  @_Concurrency.MainActor(unsafe) @objc public func adLoadFlowController(_ adLoadFlowController: PrebidMobile.PBMAdLoadFlowController, failedWithError error: (any Swift.Error)?)
   @_Concurrency.MainActor(unsafe) @objc public func adLoadFlowControllerWillSendBidRequest(_ adLoadFlowController: PrebidMobile.PBMAdLoadFlowController)
   @_Concurrency.MainActor(unsafe) @objc public func adLoadFlowControllerWillRequestPrimaryAd(_ adLoadFlowController: PrebidMobile.PBMAdLoadFlowController)
   @_Concurrency.MainActor(unsafe) @objc public func adLoadFlowControllerShouldContinue(_ adLoadFlowController: PrebidMobile.PBMAdLoadFlowController) -> Swift.Bool
@@ -1149,7 +1150,7 @@ public class VideoInterstitialAdUnit : PrebidMobile.AdUnit {
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class NativeAd : ObjectiveC.NSObject {
   @objc public var nativeAdMarkup: PrebidMobile.NativeAdMarkup?
-  @objc weak public var delegate: PrebidMobile.NativeAdEventDelegate?
+  @objc weak public var delegate: (any PrebidMobile.NativeAdEventDelegate)?
   @objc public var titles: [PrebidMobile.NativeTitle] {
     @objc get
   }
@@ -1187,7 +1188,7 @@ public class VideoInterstitialAdUnit : PrebidMobile.AdUnit {
   @objc @discardableResult
   public func registerView(view: UIKit.UIView?, clickableViews: [UIKit.UIView]?) -> Swift.Bool
 }
-public typealias PrebidInitializationCallback = ((PrebidMobile.PrebidInitializationStatus, Swift.Error?) -> Swift.Void)
+public typealias PrebidInitializationCallback = ((PrebidMobile.PrebidInitializationStatus, (any Swift.Error)?) -> Swift.Void)
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class Prebid : ObjectiveC.NSObject {
   @objc public static let bidderNameAppNexus: Swift.String
   @objc public static let bidderNameRubiconProject: Swift.String
@@ -1252,7 +1253,7 @@ public typealias PrebidInitializationCallback = ((PrebidMobile.PrebidInitializat
 }
 @objc @objcMembers public class MediationNativeAdUnit : ObjectiveC.NSObject {
   @objc public var nativeAdUnit: PrebidMobile.NativeRequest
-  @objc public init(configId: Swift.String, mediationDelegate: PrebidMobile.PrebidMediationDelegate)
+  @objc public init(configId: Swift.String, mediationDelegate: any PrebidMobile.PrebidMediationDelegate)
   @objc public func addEventTracker(_ eventTrackers: [PrebidMobile.NativeEventTracker])
   @objc public func addNativeAssets(_ assets: [PrebidMobile.NativeAsset])
   @objc public func setContextType(_ contextType: PrebidMobile.ContextType)
@@ -1315,15 +1316,15 @@ public typealias PrebidInitializationCallback = ((PrebidMobile.PrebidInitializat
     @objc get
     @objc set
   }
-  @objc weak public var loadingDelegate: PrebidMobile.InterstitialControllerLoadingDelegate?
-  @objc weak public var interactionDelegate: PrebidMobile.InterstitialControllerInteractionDelegate?
+  @objc weak public var loadingDelegate: (any PrebidMobile.InterstitialControllerLoadingDelegate)?
+  @objc weak public var interactionDelegate: (any PrebidMobile.InterstitialControllerInteractionDelegate)?
   @objc public init(bid: PrebidMobile.Bid, adConfiguration: PrebidMobile.AdUnitConfig)
   @objc convenience public init(bid: PrebidMobile.Bid, configId: Swift.String)
   @objc public func loadAd()
   @objc public func show()
   @objc public func viewControllerForModalPresentation() -> UIKit.UIViewController?
   @objc public func adLoaded(_ pbmAdDetails: PrebidMobile.PBMAdDetails)
-  @objc public func failed(toLoad error: Swift.Error)
+  @objc public func failed(toLoad error: any Swift.Error)
   @objc public func adDidComplete()
   @objc public func adDidDisplay()
   @objc public func adWasClicked()
@@ -1367,7 +1368,7 @@ public typealias PrebidInitializationCallback = ((PrebidMobile.PrebidInitializat
   @objc deinit
 }
 @objc @objcMembers public class MediationBannerAdUnit : ObjectiveC.NSObject {
-  @objc final public let mediationDelegate: PrebidMobile.PrebidMediationDelegate
+  @objc final public let mediationDelegate: any PrebidMobile.PrebidMediationDelegate
   @objc public var configID: Swift.String {
     @objc get
   }
@@ -1425,16 +1426,16 @@ public typealias PrebidInitializationCallback = ((PrebidMobile.PrebidInitializat
   @objc public func addUserData(_ userDataObjects: [PrebidMobile.PBMORTBContentData])
   @objc public func removeUserData(_ userDataObject: PrebidMobile.PBMORTBContentData)
   @objc public func clearUserData()
-  @objc public init(configID: Swift.String, size: CoreFoundation.CGSize, mediationDelegate: PrebidMobile.PrebidMediationDelegate)
+  @objc public init(configID: Swift.String, size: CoreFoundation.CGSize, mediationDelegate: any PrebidMobile.PrebidMediationDelegate)
   @objc public func fetchDemand(completion: ((PrebidMobile.ResultCode) -> Swift.Void)?)
   @objc public func stopRefresh()
-  @objc public func adObjectDidFailToLoadAd(adObject: UIKit.UIView, with error: Swift.Error)
+  @objc public func adObjectDidFailToLoadAd(adObject: UIKit.UIView, with error: any Swift.Error)
   @objc deinit
 }
 @objc public protocol BannerViewDelegate : ObjectiveC.NSObjectProtocol {
   @objc func bannerViewPresentationController() -> UIKit.UIViewController?
   @objc optional func bannerView(_ bannerView: PrebidMobile.BannerView, didReceiveAdWithAdSize adSize: CoreFoundation.CGSize)
-  @objc optional func bannerView(_ bannerView: PrebidMobile.BannerView, didFailToReceiveAdWith error: Swift.Error)
+  @objc optional func bannerView(_ bannerView: PrebidMobile.BannerView, didFailToReceiveAdWith error: any Swift.Error)
   @objc optional func bannerViewWillLeaveApplication(_ bannerView: PrebidMobile.BannerView)
   @objc optional func bannerViewWillPresentModal(_ bannerView: PrebidMobile.BannerView)
   @objc optional func bannerViewDidDismissModal(_ bannerView: PrebidMobile.BannerView)
@@ -1476,7 +1477,7 @@ public typealias PrebidInitializationCallback = ((PrebidMobile.PrebidInitializat
 @objc public protocol BannerEventLoadingDelegate : ObjectiveC.NSObjectProtocol {
   @objc func prebidDidWin()
   @objc func adServerDidWin(_ view: UIKit.UIView, adSize: CoreFoundation.CGSize)
-  @objc func failedWithError(_ error: Swift.Error?)
+  @objc func failedWithError(_ error: (any Swift.Error)?)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class InterstitialRenderingAdUnit : PrebidMobile.BaseInterstitialAdUnit {
   @objc public var skipButtonArea: Swift.Double {
@@ -1495,7 +1496,7 @@ public typealias PrebidInitializationCallback = ((PrebidMobile.PrebidInitializat
   @objc public init(configID: Swift.String, minSizePercentage: CoreFoundation.CGSize)
   @objc public init(configID: Swift.String, minSizePercentage: CoreFoundation.CGSize, eventHandler: Swift.AnyObject)
   @objc override public func callDelegate_didReceiveAd()
-  @objc override public func callDelegate_didFailToReceiveAd(with error: Swift.Error?)
+  @objc override public func callDelegate_didFailToReceiveAd(with error: (any Swift.Error)?)
   @objc override public func callDelegate_willPresentAd()
   @objc override public func callDelegate_didDismissAd()
   @objc override public func callDelegate_willLeaveApplication()
@@ -1717,7 +1718,7 @@ extension Foundation.NSString {
 }
 @objc public protocol AdLoadFlowControllerDelegate : ObjectiveC.NSObjectProtocol {
   @objc var adUnitConfig: PrebidMobile.AdUnitConfig { get }
-  @objc func adLoadFlowController(_ adLoadFlowController: PrebidMobile.PBMAdLoadFlowController, failedWithError error: Swift.Error?)
+  @objc func adLoadFlowController(_ adLoadFlowController: PrebidMobile.PBMAdLoadFlowController, failedWithError error: (any Swift.Error)?)
   @objc func adLoadFlowControllerWillSendBidRequest(_ adLoadFlowController: PrebidMobile.PBMAdLoadFlowController)
   @objc func adLoadFlowControllerWillRequestPrimaryAd(_ adLoadFlowController: PrebidMobile.PBMAdLoadFlowController)
   @objc func adLoadFlowControllerShouldContinue(_ adLoadFlowController: PrebidMobile.PBMAdLoadFlowController) -> Swift.Bool
@@ -1803,7 +1804,7 @@ public let refreshIntervalDefault: Swift.Double
 }
 @objc public protocol InterstitialAdUnitDelegate : ObjectiveC.NSObjectProtocol {
   @objc optional func interstitialDidReceiveAd(_ interstitial: PrebidMobile.InterstitialRenderingAdUnit)
-  @objc optional func interstitial(_ interstitial: PrebidMobile.InterstitialRenderingAdUnit, didFailToReceiveAdWithError error: Swift.Error?)
+  @objc optional func interstitial(_ interstitial: PrebidMobile.InterstitialRenderingAdUnit, didFailToReceiveAdWithError error: (any Swift.Error)?)
   @objc optional func interstitialWillPresentAd(_ interstitial: PrebidMobile.InterstitialRenderingAdUnit)
   @objc optional func interstitialDidDismissAd(_ interstitial: PrebidMobile.InterstitialRenderingAdUnit)
   @objc optional func interstitialWillLeaveApplication(_ interstitial: PrebidMobile.InterstitialRenderingAdUnit)
@@ -1812,7 +1813,7 @@ public let refreshIntervalDefault: Swift.Double
 @objc public protocol RewardedAdUnitDelegate : ObjectiveC.NSObjectProtocol {
   @objc optional func rewardedAdDidReceiveAd(_ rewardedAd: PrebidMobile.RewardedAdUnit)
   @objc optional func rewardedAdUserDidEarnReward(_ rewardedAd: PrebidMobile.RewardedAdUnit)
-  @objc optional func rewardedAd(_ rewardedAd: PrebidMobile.RewardedAdUnit, didFailToReceiveAdWithError error: Swift.Error?)
+  @objc optional func rewardedAd(_ rewardedAd: PrebidMobile.RewardedAdUnit, didFailToReceiveAdWithError error: (any Swift.Error)?)
   @objc optional func rewardedAdWillPresentAd(_ rewardedAd: PrebidMobile.RewardedAdUnit)
   @objc optional func rewardedAdDidDismissAd(_ rewardedAd: PrebidMobile.RewardedAdUnit)
   @objc optional func rewardedAdWillLeaveApplication(_ rewardedAd: PrebidMobile.RewardedAdUnit)
@@ -1865,7 +1866,7 @@ public let refreshIntervalDefault: Swift.Double
 @objc public protocol InterstitialEventLoadingDelegate : ObjectiveC.NSObjectProtocol {
   @objc func prebidDidWin()
   @objc func adServerDidWin()
-  @objc func failedWithError(_ error: Swift.Error?)
+  @objc func failedWithError(_ error: (any Swift.Error)?)
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class PrebidServerResponse : ObjectiveC.NSObject {
   @objc public var isOKStatusCode: Swift.Bool {
@@ -1876,7 +1877,7 @@ public let refreshIntervalDefault: Swift.Double
   @objc public var requestHeaders: [Swift.String : Swift.String]?
   @objc public var responseHeaders: [Swift.String : Swift.String]?
   @objc public var requestURL: Swift.String?
-  @objc public var error: Swift.Error?
+  @objc public var error: (any Swift.Error)?
   @objc public var statusCode: Swift.Int
   @objc override dynamic public init()
   @objc deinit
@@ -1884,7 +1885,7 @@ public let refreshIntervalDefault: Swift.Double
 @objc public protocol BaseInterstitialAdUnitProtocol : ObjectiveC.NSObjectProtocol {
   @objc func interstitialControllerDidCloseAd(_ interstitialController: PrebidMobile.InterstitialController)
   @objc func callDelegate_didReceiveAd()
-  @objc func callDelegate_didFailToReceiveAd(with error: Swift.Error?)
+  @objc func callDelegate_didFailToReceiveAd(with error: (any Swift.Error)?)
   @objc func callDelegate_willPresentAd()
   @objc func callDelegate_didDismissAd()
   @objc func callDelegate_willLeaveApplication()
@@ -1929,8 +1930,8 @@ public let refreshIntervalDefault: Swift.Double
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class InterstitialEventHandlerStandalone : ObjectiveC.NSObject, PrebidMobile.InterstitialEventHandlerProtocol {
-  @objc weak public var loadingDelegate: PrebidMobile.InterstitialEventLoadingDelegate?
-  @objc weak public var interactionDelegate: PrebidMobile.InterstitialEventInteractionDelegate?
+  @objc weak public var loadingDelegate: (any PrebidMobile.InterstitialEventLoadingDelegate)?
+  @objc weak public var interactionDelegate: (any PrebidMobile.InterstitialEventInteractionDelegate)?
   @objc public var isReady: Swift.Bool {
     @objc get
   }
@@ -1949,8 +1950,8 @@ public let refreshIntervalDefault: Swift.Double
   @objc func userDidEarnReward(_ reward: ObjectiveC.NSObject?)
 }
 @_hasMissingDesignatedInitializers public class ImageHelper {
-  public static func downloadImageSync(_ urlString: Swift.String) -> Swift.Result<UIKit.UIImage, Swift.Error>
-  public static func downloadImageAsync(_ urlString: Swift.String, completion: @escaping (Swift.Result<UIKit.UIImage, Swift.Error>) -> Swift.Void)
+  public static func downloadImageSync(_ urlString: Swift.String) -> Swift.Result<UIKit.UIImage, any Swift.Error>
+  public static func downloadImageAsync(_ urlString: Swift.String, completion: @escaping (Swift.Result<UIKit.UIImage, any Swift.Error>) -> Swift.Void)
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc(PBMVideoControlsConfiguration) @objcMembers public class VideoControlsConfiguration : ObjectiveC.NSObject {
@@ -2047,13 +2048,13 @@ public let refreshIntervalDefault: Swift.Double
   @objc deinit
 }
 @objc public protocol BannerEventHandler : PrebidMobile.PBMPrimaryAdRequesterProtocol {
-  @objc weak var loadingDelegate: PrebidMobile.BannerEventLoadingDelegate? { get set }
-  @objc weak var interactionDelegate: PrebidMobile.BannerEventInteractionDelegate? { get set }
+  @objc weak var loadingDelegate: (any PrebidMobile.BannerEventLoadingDelegate)? { get set }
+  @objc weak var interactionDelegate: (any PrebidMobile.BannerEventInteractionDelegate)? { get set }
   @objc var adSizes: [CoreFoundation.CGSize] { get }
   @objc func trackImpression()
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class AdViewUtils : ObjectiveC.NSObject {
-  @objc public static func findPrebidCreativeSize(_ adView: UIKit.UIView, success: @escaping (CoreFoundation.CGSize) -> Swift.Void, failure: @escaping (Swift.Error) -> Swift.Void)
+  @objc public static func findPrebidCreativeSize(_ adView: UIKit.UIView, success: @escaping (CoreFoundation.CGSize) -> Swift.Void, failure: @escaping (any Swift.Error) -> Swift.Void)
   @objc deinit
 }
 @objc public protocol InterstitialEventInteractionDelegate : ObjectiveC.NSObjectProtocol {
@@ -2195,7 +2196,7 @@ public typealias PrebidServerResponseCallback = (PrebidMobile.PrebidServerRespon
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class Utils : ObjectiveC.NSObject {
   @objc public static let shared: PrebidMobile.Utils
-  @objc weak public var delegate: PrebidMobile.NativeAdDelegate?
+  @objc weak public var delegate: (any PrebidMobile.NativeAdDelegate)?
   @available(*, deprecated, message: "MoPub is not available anymore. Use Prebid MAX adapters instead.")
   @objc public func convertDictToMoPubKeywords(dict: Swift.Dictionary<Swift.String, Swift.String>) -> Swift.String
   @objc public func findNative(adObject: Swift.AnyObject)
