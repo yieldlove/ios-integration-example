@@ -3,27 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		110CCB222869EA7800183F99 /* PromiseKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110CCB1E2869EA7800183F99 /* PromiseKit.xcframework */; };
-		110CCB232869EA7800183F99 /* PromiseKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 110CCB1E2869EA7800183F99 /* PromiseKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		110CCB242869EA7800183F99 /* YieldloveAdIntegration.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110CCB1F2869EA7800183F99 /* YieldloveAdIntegration.xcframework */; };
-		110CCB252869EA7800183F99 /* YieldloveAdIntegration.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 110CCB1F2869EA7800183F99 /* YieldloveAdIntegration.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		110CCB262869EA7800183F99 /* PrebidMobile.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110CCB202869EA7800183F99 /* PrebidMobile.xcframework */; };
-		110CCB272869EA7800183F99 /* PrebidMobile.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 110CCB202869EA7800183F99 /* PrebidMobile.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		110CCB282869EA7800183F99 /* YieldloveExternalConfiguration.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110CCB212869EA7800183F99 /* YieldloveExternalConfiguration.xcframework */; };
-		110CCB292869EA7800183F99 /* YieldloveExternalConfiguration.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 110CCB212869EA7800183F99 /* YieldloveExternalConfiguration.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		110CCB2D2869EAAF00183F99 /* CriteoPublisherSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110CCB2B2869EAAF00183F99 /* CriteoPublisherSdk.xcframework */; };
-		110CCB2F2869EAAF00183F99 /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110CCB2C2869EAAF00183F99 /* GoogleMobileAds.xcframework */; };
 		110ED4C82869DC6F001A2F51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110ED4C72869DC6F001A2F51 /* AppDelegate.swift */; };
 		110ED4CC2869DC6F001A2F51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110ED4CB2869DC6F001A2F51 /* ViewController.swift */; };
 		110ED4CF2869DC6F001A2F51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110ED4CD2869DC6F001A2F51 /* Main.storyboard */; };
 		110ED4D42869DC71001A2F51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110ED4D22869DC71001A2F51 /* LaunchScreen.storyboard */; };
-		118BC1A6286B21ED0050EF31 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118BC1A4286B20DB0050EF31 /* JavaScriptCore.framework */; };
 		118BC1A8286B2FBB0050EF31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BC1A7286B2FBB0050EF31 /* SceneDelegate.swift */; };
 		118BC1AA286B30A70050EF31 /* BannerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BC1A9286B30A70050EF31 /* BannerDelegate.swift */; };
+		3446E37A2C23D218007A91B2 /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3446E3792C23D218007A91B2 /* GoogleMobileAds.xcframework */; };
+		3446E37B2C23D218007A91B2 /* GoogleMobileAds.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3446E3792C23D218007A91B2 /* GoogleMobileAds.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3446E37D2C23D21D007A91B2 /* UserMessagingPlatform.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3446E37C2C23D21D007A91B2 /* UserMessagingPlatform.xcframework */; };
+		3446E37E2C23D21D007A91B2 /* UserMessagingPlatform.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3446E37C2C23D21D007A91B2 /* UserMessagingPlatform.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F355152F04C5580D482CB9C9 /* Pods_IntegrationExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B9F8294434C4E5E797B8E5 /* Pods_IntegrationExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,10 +27,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				110CCB272869EA7800183F99 /* PrebidMobile.xcframework in Embed Frameworks */,
-				110CCB292869EA7800183F99 /* YieldloveExternalConfiguration.xcframework in Embed Frameworks */,
-				110CCB232869EA7800183F99 /* PromiseKit.xcframework in Embed Frameworks */,
-				110CCB252869EA7800183F99 /* YieldloveAdIntegration.xcframework in Embed Frameworks */,
+				3446E37E2C23D21D007A91B2 /* UserMessagingPlatform.xcframework in Embed Frameworks */,
+				3446E37B2C23D218007A91B2 /* GoogleMobileAds.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,21 +36,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		110CCB1E2869EA7800183F99 /* PromiseKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PromiseKit.xcframework; path = Dependencies/PromiseKit.xcframework; sourceTree = "<group>"; };
-		110CCB1F2869EA7800183F99 /* YieldloveAdIntegration.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = YieldloveAdIntegration.xcframework; path = Dependencies/YieldloveAdIntegration.xcframework; sourceTree = "<group>"; };
-		110CCB202869EA7800183F99 /* PrebidMobile.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PrebidMobile.xcframework; path = Dependencies/PrebidMobile.xcframework; sourceTree = "<group>"; };
-		110CCB212869EA7800183F99 /* YieldloveExternalConfiguration.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = YieldloveExternalConfiguration.xcframework; path = Dependencies/YieldloveExternalConfiguration.xcframework; sourceTree = "<group>"; };
-		110CCB2B2869EAAF00183F99 /* CriteoPublisherSdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CriteoPublisherSdk.xcframework; path = Dependencies/CriteoPublisherSdk.xcframework; sourceTree = "<group>"; };
-		110CCB2C2869EAAF00183F99 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMobileAds.xcframework; path = Dependencies/GoogleMobileAds.xcframework; sourceTree = "<group>"; };
 		110ED4C42869DC6F001A2F51 /* IntegrationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntegrationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		110ED4C72869DC6F001A2F51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		110ED4CB2869DC6F001A2F51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		110ED4CE2869DC6F001A2F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		110ED4D32869DC71001A2F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		110ED4D52869DC71001A2F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		118BC1A4286B20DB0050EF31 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		118BC1A7286B2FBB0050EF31 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		118BC1A9286B30A70050EF31 /* BannerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerDelegate.swift; sourceTree = "<group>"; };
+		3446E3792C23D218007A91B2 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; name = GoogleMobileAds.xcframework; path = "Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework/GoogleMobileAds.xcframework"; sourceTree = "<group>"; };
+		3446E37C2C23D21D007A91B2 /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; name = UserMessagingPlatform.xcframework; path = Pods/GoogleUserMessagingPlatform/Frameworks/Release/UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
+		674DEBF3C566BEE71F9E92FF /* Pods-IntegrationExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegrationExample.release.xcconfig"; path = "Target Support Files/Pods-IntegrationExample/Pods-IntegrationExample.release.xcconfig"; sourceTree = "<group>"; };
+		9ECA178291C0CCCB0AF3019D /* Pods-IntegrationExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegrationExample.debug.xcconfig"; path = "Target Support Files/Pods-IntegrationExample/Pods-IntegrationExample.debug.xcconfig"; sourceTree = "<group>"; };
+		D0B9F8294434C4E5E797B8E5 /* Pods_IntegrationExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntegrationExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +56,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				110CCB2D2869EAAF00183F99 /* CriteoPublisherSdk.xcframework in Frameworks */,
-				110CCB2F2869EAAF00183F99 /* GoogleMobileAds.xcframework in Frameworks */,
-				110CCB262869EA7800183F99 /* PrebidMobile.xcframework in Frameworks */,
-				110CCB282869EA7800183F99 /* YieldloveExternalConfiguration.xcframework in Frameworks */,
-				110CCB222869EA7800183F99 /* PromiseKit.xcframework in Frameworks */,
-				110CCB242869EA7800183F99 /* YieldloveAdIntegration.xcframework in Frameworks */,
-				118BC1A6286B21ED0050EF31 /* JavaScriptCore.framework in Frameworks */,
+				F355152F04C5580D482CB9C9 /* Pods_IntegrationExample.framework in Frameworks */,
+				3446E37D2C23D21D007A91B2 /* UserMessagingPlatform.xcframework in Frameworks */,
+				3446E37A2C23D218007A91B2 /* GoogleMobileAds.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,13 +68,9 @@
 		110CCB1D2869EA7800183F99 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				118BC1A4286B20DB0050EF31 /* JavaScriptCore.framework */,
-				110CCB2B2869EAAF00183F99 /* CriteoPublisherSdk.xcframework */,
-				110CCB2C2869EAAF00183F99 /* GoogleMobileAds.xcframework */,
-				110CCB202869EA7800183F99 /* PrebidMobile.xcframework */,
-				110CCB1E2869EA7800183F99 /* PromiseKit.xcframework */,
-				110CCB1F2869EA7800183F99 /* YieldloveAdIntegration.xcframework */,
-				110CCB212869EA7800183F99 /* YieldloveExternalConfiguration.xcframework */,
+				3446E37C2C23D21D007A91B2 /* UserMessagingPlatform.xcframework */,
+				3446E3792C23D218007A91B2 /* GoogleMobileAds.xcframework */,
+				D0B9F8294434C4E5E797B8E5 /* Pods_IntegrationExample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -99,6 +81,7 @@
 				110ED4C62869DC6F001A2F51 /* IntegrationExample */,
 				110ED4C52869DC6F001A2F51 /* Products */,
 				110CCB1D2869EA7800183F99 /* Frameworks */,
+				375D6924DF12EBBC237C9814 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +107,15 @@
 			path = IntegrationExample;
 			sourceTree = "<group>";
 		};
+		375D6924DF12EBBC237C9814 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9ECA178291C0CCCB0AF3019D /* Pods-IntegrationExample.debug.xcconfig */,
+				674DEBF3C566BEE71F9E92FF /* Pods-IntegrationExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,10 +123,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 110ED4D82869DC71001A2F51 /* Build configuration list for PBXNativeTarget "IntegrationExample" */;
 			buildPhases = (
+				B124C55317B988EC08C91DA9 /* [CP] Check Pods Manifest.lock */,
 				110ED4C02869DC6F001A2F51 /* Sources */,
 				110ED4C12869DC6F001A2F51 /* Frameworks */,
 				110ED4C22869DC6F001A2F51 /* Resources */,
 				110CCB2A2869EA7800183F99 /* Embed Frameworks */,
+				4E7DBC87CBF5AB4B26CDD06A /* [CP] Embed Pods Frameworks */,
+				8352E5D58CE3375B0C22C9C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,6 +184,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E7DBC87CBF5AB4B26CDD06A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntegrationExample/Pods-IntegrationExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntegrationExample/Pods-IntegrationExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IntegrationExample/Pods-IntegrationExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8352E5D58CE3375B0C22C9C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntegrationExample/Pods-IntegrationExample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntegrationExample/Pods-IntegrationExample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IntegrationExample/Pods-IntegrationExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B124C55317B988EC08C91DA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntegrationExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		110ED4C02869DC6F001A2F51 /* Sources */ = {
@@ -340,12 +394,13 @@
 		};
 		110ED4D92869DC71001A2F51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ECA178291C0CCCB0AF3019D /* Pods-IntegrationExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S587T6HBTW;
+				DEVELOPMENT_TEAM = TFY6R4Q76C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IntegrationExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -362,6 +417,10 @@
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.slabs.IntegrationExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -370,12 +429,13 @@
 		};
 		110ED4DA2869DC71001A2F51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 674DEBF3C566BEE71F9E92FF /* Pods-IntegrationExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S587T6HBTW;
+				DEVELOPMENT_TEAM = TFY6R4Q76C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IntegrationExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -392,6 +452,10 @@
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.slabs.IntegrationExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

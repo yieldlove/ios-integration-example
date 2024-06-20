@@ -3,19 +3,23 @@ import YieldloveAdIntegration
 
 class ViewController: UIViewController {
    
+    var bannerView : BannerDelegate?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Test configuration
-        let appName = "appDfpTestMonitoring2"
-        let adSlotId = "b2"
+        let appName = "mps_motorradonline"
+        let adSlotId = "b1"
         
         // Setup Yieldlove (this should be done only once)
         Yieldlove.setup(appName: appName)
+        Yieldlove.instance.developerModeEnabled = true
+        Yieldlove.instance.enableDebug(isEnabled: true)
         
-        // Initialize banner ad
-        let delegate = BannerDelegate(viewController: self)
-        Yieldlove.instance.bannerAd(adSlotId: adSlotId, viewController: self, delegate: delegate)
+        bannerView = BannerDelegate(adSlotId: adSlotId, viewController: self)
+        bannerView?.load()
+                
     }
 
 }
