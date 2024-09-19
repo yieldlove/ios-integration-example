@@ -20,9 +20,6 @@ change `appName` and `adSlotId` in method `ViewController.viewDidLoad` to specif
 
 This project **already includes** dependencies needed to run it:
 
-- YieldloveAdIntegration `9.5.0`
-- YieldloveExternalConfiguration `0.19.0`
-- PromiseKit `6.21.0`
-- prebid-mobile-ios `2.1.6-carthage`
-- GoogleMobileAds `9.7.0`
-- CriteoPublisherSdk `4.5.0`
+- YieldloveAdIntegration `9.6.0`
+- YieldloveExternalConfiguration `0.20.0`
+- PromiseKit `~>8`
