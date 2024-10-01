@@ -1,0 +1,53 @@
+PODS:
+  - CriteoPublisherSdk (4.4.0):
+    - CriteoPublisherSdk/Sdk (= 4.4.0)
+  - CriteoPublisherSdk/Sdk (4.4.0)
+  - Google-Mobile-Ads-SDK (11.10.0):
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleUserMessagingPlatform (2.6.0)
+  - PrebidMobile (2.2.3):
+    - PrebidMobile/core (= 2.2.3)
+  - PrebidMobile/core (2.2.3)
+  - PromiseKit (8.1.2):
+    - PromiseKit/CorePromise (= 8.1.2)
+    - PromiseKit/Foundation (= 8.1.2)
+    - PromiseKit/UIKit (= 8.1.2)
+  - PromiseKit/CorePromise (8.1.2)
+  - PromiseKit/Foundation (8.1.2):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (8.1.2):
+    - PromiseKit/CorePromise
+  - YieldloveAdIntegration (9.8.0):
+    - CriteoPublisherSdk (~> 4.4.0)
+    - Google-Mobile-Ads-SDK
+    - PrebidMobile (= 2.2.3)
+    - YieldloveExternalConfiguration (= 0.23.0)
+  - YieldloveExternalConfiguration (0.23.0):
+    - PromiseKit (~> 8)
+
+DEPENDENCIES:
+  - YieldloveAdIntegration
+  - YieldloveExternalConfiguration
+
+SPEC REPOS:
+  trunk:
+    - CriteoPublisherSdk
+    - Google-Mobile-Ads-SDK
+    - GoogleUserMessagingPlatform
+    - PrebidMobile
+    - PromiseKit
+    - YieldloveAdIntegration
+    - YieldloveExternalConfiguration
+
+SPEC CHECKSUMS:
+  CriteoPublisherSdk: f789cccc222f1a9f6f5feec6af6f12da5d4c225a
+  Google-Mobile-Ads-SDK: 13e6e98edfd78ad8d8a791edb927658cc260a56f
+  GoogleUserMessagingPlatform: 0c3a08353e53ce8c2feab7addd0b652cde522450
+  PrebidMobile: 82d8ae0c61bad3fd0f13528795b5f4b1cc83f967
+  PromiseKit: e057b5b3c0ce9a0145674d633930924234104ee3
+  YieldloveAdIntegration: 0a585226a7eee54a4eb5ffcff2428f8dc258ea7b
+  YieldloveExternalConfiguration: 37769e82b0eb33ef229df23f2524b4cb646fb9c9
+
+PODFILE CHECKSUM: 3dc4d551c47db83629016e0769bfbf31ca209a7b
+
+COCOAPODS: 1.15.2

@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     }
 
     func loadBanner() {
-        let adSlotId = "b1"
+        let adSlotId = "banner"
 
         bannerView = BannerDelegate(adSlotId: adSlotId, viewController: self)
         bannerView?.load()
