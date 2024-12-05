@@ -43,6 +43,8 @@ class BannerDelegate: NSObject, YLBannerViewDelegate {
     public func clearBanner()
     {
         adView?.removeFromSuperview();
+        adView?.delegate = nil
+        adView?.rootViewController = nil
         adView = nil
     }
     
@@ -52,4 +54,5 @@ class BannerDelegate: NSObject, YLBannerViewDelegate {
         publishersRequest.contentURL = "http://jobs.stroeer-labs.com"
         return publishersRequest
     }
+    
 }
