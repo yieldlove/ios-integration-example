@@ -3,15 +3,21 @@ platform :ios, '12.0'
 
 source 'https://cdn.cocoapods.org/'
 source 'https://cdn.confiant-integrations.net/backend-integrations/in-app/releases/ios/podspecs.git'
-#source 'https://github.com/stroeersdk/release.git'
 
 target 'SimpleAdTest' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-   
-    pod 'AATKit', '3.10.8'
-    pod 'YieldloveAdIntegration/Gravite', '9.10.0'
-    pod 'YieldloveConsent', '6.5.0'
+  
+  # For Confiant
+  pod 'ConfiantSDK', '6.1.1'
+  pod 'YieldloveAdIntegration', :podspec => 'https://slabs-yieldlove-ad-integration.s3.eu-central-1.amazonaws.com/ios/YieldloveAdIntegrationConfiant.podspec', subspecs: ['Gravite', 'Confiant']
+  
+  # For Gravite
+  pod 'AATKit', '3.10.8'
+  # pod 'YieldloveAdIntegration/Gravite', '9.10.0'
+  pod 'YieldloveConsent', '6.5.0'
+
+  
 
 end
 
