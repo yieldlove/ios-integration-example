@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3432511E2C4DD5C100A8C0DE /* SimpleAdTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3432511D2C4DD5C100A8C0DE /* SimpleAdTestApp.swift */; };
+		343251202C4DD5C100A8C0DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3432511F2C4DD5C100A8C0DE /* ContentView.swift */; };
+		343251242C4DD5C300A8C0DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 343251232C4DD5C300A8C0DE /* Assets.xcassets */; };
+		343251282C4DD5C300A8C0DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 343251272C4DD5C300A8C0DE /* Preview Assets.xcassets */; };
+		343251562C4DD9B300A8C0DE /* google.plist in Resources */ = {isa = PBXBuildFile; fileRef = 343251552C4DD9B300A8C0DE /* google.plist */; };
+		343251592C4DF07600A8C0DE /* BannerViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343251582C4DF07600A8C0DE /* BannerViewUI.swift */; };
+		3432515B2C4DF58600A8C0DE /* InterstitialViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3432515A2C4DF58600A8C0DE /* InterstitialViewUI.swift */; };
+		3432515D2C4DF65F00A8C0DE /* RewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3432515C2C4DF65F00A8C0DE /* RewardView.swift */; };
+		343251622C4E06F900A8C0DE /* PrivacyManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343251612C4E06F900A8C0DE /* PrivacyManagerView.swift */; };
+		343251652C4E127700A8C0DE /* BannerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343251642C4E127700A8C0DE /* BannerViewDelegate.swift */; };
+		343251672C4E14CA00A8C0DE /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343251662C4E14CA00A8C0DE /* BannerViewController.swift */; };
+		343251692C4E160400A8C0DE /* BannerViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343251682C4E160400A8C0DE /* BannerViewRepresentable.swift */; };
+		34661C8B2C5AF38C00B29E6E /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34661C8A2C5AF38C00B29E6E /* InterstitialViewController.swift */; };
+		347B8C0E2C78268D00270869 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347B8C0D2C78268D00270869 /* Item.swift */; };
+		348F3BEA2C57392300168E67 /* InterstitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348F3BE92C57392300168E67 /* InterstitialView.swift */; };
+		348F3BEC2C573D2300168E67 /* InterstitialViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348F3BEB2C573D2300168E67 /* InterstitialViewRepresentable.swift */; };
+		EFF56F5D5AB7B1D6028A55B9 /* Pods_SimpleAdTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FB8CDF0C0E5277211CA4B1 /* Pods_SimpleAdTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		347B8C0C2C78240E00270869 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1E3574067F8EF81D7ACF9978 /* Pods-SimpleAdTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleAdTest.release.xcconfig"; path = "Target Support Files/Pods-SimpleAdTest/Pods-SimpleAdTest.release.xcconfig"; sourceTree = "<group>"; };
+		3432511A2C4DD5C100A8C0DE /* SimpleAdTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleAdTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3432511D2C4DD5C100A8C0DE /* SimpleAdTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAdTestApp.swift; sourceTree = "<group>"; };
+		3432511F2C4DD5C100A8C0DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		343251232C4DD5C300A8C0DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		343251252C4DD5C300A8C0DE /* SimpleAdTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleAdTest.entitlements; sourceTree = "<group>"; };
+		343251272C4DD5C300A8C0DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		343251312C4DD5C300A8C0DE /* SimpleAdTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAdTestTests.swift; sourceTree = "<group>"; };
+		3432513B2C4DD5C300A8C0DE /* SimpleAdTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAdTestUITests.swift; sourceTree = "<group>"; };
+		3432513D2C4DD5C300A8C0DE /* SimpleAdTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAdTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		343251552C4DD9B300A8C0DE /* google.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = google.plist; sourceTree = "<group>"; };
+		343251582C4DF07600A8C0DE /* BannerViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewUI.swift; sourceTree = "<group>"; };
+		3432515A2C4DF58600A8C0DE /* InterstitialViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialViewUI.swift; sourceTree = "<group>"; };
+		3432515C2C4DF65F00A8C0DE /* RewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardView.swift; sourceTree = "<group>"; };
+		343251612C4E06F900A8C0DE /* PrivacyManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyManagerView.swift; sourceTree = "<group>"; };
+		343251642C4E127700A8C0DE /* BannerViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewDelegate.swift; sourceTree = "<group>"; };
+		343251662C4E14CA00A8C0DE /* BannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
+		343251682C4E160400A8C0DE /* BannerViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewRepresentable.swift; sourceTree = "<group>"; };
+		34661C8A2C5AF38C00B29E6E /* InterstitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialViewController.swift; sourceTree = "<group>"; };
+		347B8C0D2C78268D00270869 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		348F3BE92C57392300168E67 /* InterstitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialView.swift; sourceTree = "<group>"; };
+		348F3BEB2C573D2300168E67 /* InterstitialViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialViewRepresentable.swift; sourceTree = "<group>"; };
+		AF79E02CEFBD9E50559FAE68 /* Pods-SimpleAdTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleAdTest.debug.xcconfig"; path = "Target Support Files/Pods-SimpleAdTest/Pods-SimpleAdTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D9FB8CDF0C0E5277211CA4B1 /* Pods_SimpleAdTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleAdTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		343251172C4DD5C100A8C0DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF56F5D5AB7B1D6028A55B9 /* Pods_SimpleAdTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		343251112C4DD5C100A8C0DE = {
+			isa = PBXGroup;
+			children = (
+				343251552C4DD9B300A8C0DE /* google.plist */,
+				3432511C2C4DD5C100A8C0DE /* SimpleAdTest */,
+				343251302C4DD5C300A8C0DE /* SimpleAdTestTests */,
+				3432513A2C4DD5C300A8C0DE /* SimpleAdTestUITests */,
+				3432511B2C4DD5C100A8C0DE /* Products */,
+				CCA557D98976A9F17E31677B /* Pods */,
+				CD00679D8B139C2FF5023829 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3432511B2C4DD5C100A8C0DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3432511A2C4DD5C100A8C0DE /* SimpleAdTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3432511C2C4DD5C100A8C0DE /* SimpleAdTest */ = {
+			isa = PBXGroup;
+			children = (
+				347B8C0D2C78268D00270869 /* Item.swift */,
+				348F3BE82C5738F400168E67 /* Interstitial */,
+				343251632C4E126700A8C0DE /* Banner */,
+				343251602C4E06DE00A8C0DE /* Consent */,
+				343251572C4DDAD000A8C0DE /* UIs */,
+				3432511D2C4DD5C100A8C0DE /* SimpleAdTestApp.swift */,
+				343251232C4DD5C300A8C0DE /* Assets.xcassets */,
+				343251252C4DD5C300A8C0DE /* SimpleAdTest.entitlements */,
+				343251262C4DD5C300A8C0DE /* Preview Content */,
+			);
+			path = SimpleAdTest;
+			sourceTree = "<group>";
+		};
+		343251262C4DD5C300A8C0DE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				343251272C4DD5C300A8C0DE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		343251302C4DD5C300A8C0DE /* SimpleAdTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				343251312C4DD5C300A8C0DE /* SimpleAdTestTests.swift */,
+			);
+			path = SimpleAdTestTests;
+			sourceTree = "<group>";
+		};
+		3432513A2C4DD5C300A8C0DE /* SimpleAdTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3432513B2C4DD5C300A8C0DE /* SimpleAdTestUITests.swift */,
+				3432513D2C4DD5C300A8C0DE /* SimpleAdTestUITestsLaunchTests.swift */,
+			);
+			path = SimpleAdTestUITests;
+			sourceTree = "<group>";
+		};
+		343251572C4DDAD000A8C0DE /* UIs */ = {
+			isa = PBXGroup;
+			children = (
+				3432511F2C4DD5C100A8C0DE /* ContentView.swift */,
+				343251582C4DF07600A8C0DE /* BannerViewUI.swift */,
+				3432515A2C4DF58600A8C0DE /* InterstitialViewUI.swift */,
+				3432515C2C4DF65F00A8C0DE /* RewardView.swift */,
+			);
+			path = UIs;
+			sourceTree = "<group>";
+		};
+		343251602C4E06DE00A8C0DE /* Consent */ = {
+			isa = PBXGroup;
+			children = (
+				343251612C4E06F900A8C0DE /* PrivacyManagerView.swift */,
+			);
+			path = Consent;
+			sourceTree = "<group>";
+		};
+		343251632C4E126700A8C0DE /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				343251642C4E127700A8C0DE /* BannerViewDelegate.swift */,
+				343251662C4E14CA00A8C0DE /* BannerViewController.swift */,
+				343251682C4E160400A8C0DE /* BannerViewRepresentable.swift */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		348F3BE82C5738F400168E67 /* Interstitial */ = {
+			isa = PBXGroup;
+			children = (
+				348F3BE92C57392300168E67 /* InterstitialView.swift */,
+				348F3BEB2C573D2300168E67 /* InterstitialViewRepresentable.swift */,
+				34661C8A2C5AF38C00B29E6E /* InterstitialViewController.swift */,
+			);
+			path = Interstitial;
+			sourceTree = "<group>";
+		};
+		CCA557D98976A9F17E31677B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF79E02CEFBD9E50559FAE68 /* Pods-SimpleAdTest.debug.xcconfig */,
+				1E3574067F8EF81D7ACF9978 /* Pods-SimpleAdTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD00679D8B139C2FF5023829 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9FB8CDF0C0E5277211CA4B1 /* Pods_SimpleAdTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		343251192C4DD5C100A8C0DE /* SimpleAdTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 343251412C4DD5C300A8C0DE /* Build configuration list for PBXNativeTarget "SimpleAdTest" */;
+			buildPhases = (
+				80E3A9CDE83B4C7368EDE2E3 /* [CP] Check Pods Manifest.lock */,
+				343251162C4DD5C100A8C0DE /* Sources */,
+				343251172C4DD5C100A8C0DE /* Frameworks */,
+				343251182C4DD5C100A8C0DE /* Resources */,
+				347B8C0C2C78240E00270869 /* Embed Frameworks */,
+				AD864349F638A5BFAE72D325 /* [CP] Embed Pods Frameworks */,
+				768C24BA54F246D3F9F567A6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleAdTest;
+			productName = SimpleAdTest;
+			productReference = 3432511A2C4DD5C100A8C0DE /* SimpleAdTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		343251122C4DD5C100A8C0DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					343251192C4DD5C100A8C0DE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 343251152C4DD5C100A8C0DE /* Build configuration list for PBXProject "SimpleAdTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 343251112C4DD5C100A8C0DE;
+			productRefGroup = 3432511B2C4DD5C100A8C0DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				343251192C4DD5C100A8C0DE /* SimpleAdTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		343251182C4DD5C100A8C0DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343251282C4DD5C300A8C0DE /* Preview Assets.xcassets in Resources */,
+				343251562C4DD9B300A8C0DE /* google.plist in Resources */,
+				343251242C4DD5C300A8C0DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		768C24BA54F246D3F9F567A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleAdTest/Pods-SimpleAdTest-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleAdTest/Pods-SimpleAdTest-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimpleAdTest/Pods-SimpleAdTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80E3A9CDE83B4C7368EDE2E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleAdTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD864349F638A5BFAE72D325 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleAdTest/Pods-SimpleAdTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleAdTest/Pods-SimpleAdTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimpleAdTest/Pods-SimpleAdTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		343251162C4DD5C100A8C0DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343251672C4E14CA00A8C0DE /* BannerViewController.swift in Sources */,
+				343251592C4DF07600A8C0DE /* BannerViewUI.swift in Sources */,
+				343251202C4DD5C100A8C0DE /* ContentView.swift in Sources */,
+				348F3BEA2C57392300168E67 /* InterstitialView.swift in Sources */,
+				3432515B2C4DF58600A8C0DE /* InterstitialViewUI.swift in Sources */,
+				343251622C4E06F900A8C0DE /* PrivacyManagerView.swift in Sources */,
+				343251692C4E160400A8C0DE /* BannerViewRepresentable.swift in Sources */,
+				347B8C0E2C78268D00270869 /* Item.swift in Sources */,
+				34661C8B2C5AF38C00B29E6E /* InterstitialViewController.swift in Sources */,
+				343251652C4E127700A8C0DE /* BannerViewDelegate.swift in Sources */,
+				348F3BEC2C573D2300168E67 /* InterstitialViewRepresentable.swift in Sources */,
+				3432515D2C4DF65F00A8C0DE /* RewardView.swift in Sources */,
+				3432511E2C4DD5C100A8C0DE /* SimpleAdTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3432513F2C4DD5C300A8C0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		343251402C4DD5C300A8C0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		343251422C4DD5C300A8C0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF79E02CEFBD9E50559FAE68 /* Pods-SimpleAdTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SimpleAdTest/SimpleAdTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleAdTest/Preview Content\"";
+				DEVELOPMENT_TEAM = TFY6R4Q76C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = google.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "SimpleAdTest uses your data to show relevant ads";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/PrebidMobile/core\"",
+					/usr/lib/swift,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stroeer.sampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		343251432C4DD5C300A8C0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E3574067F8EF81D7ACF9978 /* Pods-SimpleAdTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SimpleAdTest/SimpleAdTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleAdTest/Preview Content\"";
+				DEVELOPMENT_TEAM = TFY6R4Q76C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = google.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "SimpleAdTest uses your data to show relevant ads";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stroeer.sampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		343251152C4DD5C100A8C0DE /* Build configuration list for PBXProject "SimpleAdTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3432513F2C4DD5C300A8C0DE /* Debug */,
+				343251402C4DD5C300A8C0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		343251412C4DD5C300A8C0DE /* Build configuration list for PBXNativeTarget "SimpleAdTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				343251422C4DD5C300A8C0DE /* Debug */,
+				343251432C4DD5C300A8C0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 343251122C4DD5C100A8C0DE /* Project object */;
+}

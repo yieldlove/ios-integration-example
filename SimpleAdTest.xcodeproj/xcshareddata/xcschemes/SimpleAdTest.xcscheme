@@ -15,10 +15,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "110ED4C32869DC6F001A2F51"
-               BuildableName = "IntegrationExample.app"
-               BlueprintName = "IntegrationExample"
-               ReferencedContainer = "container:IntegrationExample.xcodeproj">
+               BlueprintIdentifier = "343251192C4DD5C100A8C0DE"
+               BuildableName = "SimpleAdTest.app"
+               BlueprintName = "SimpleAdTest"
+               ReferencedContainer = "container:SimpleAdTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,6 +29,30 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3432512C2C4DD5C300A8C0DE"
+               BuildableName = "SimpleAdTestTests.xctest"
+               BlueprintName = "SimpleAdTestTests"
+               ReferencedContainer = "container:SimpleAdTest.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "343251362C4DD5C300A8C0DE"
+               BuildableName = "SimpleAdTestUITests.xctest"
+               BlueprintName = "SimpleAdTestUITests"
+               ReferencedContainer = "container:SimpleAdTest.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -44,10 +68,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "110ED4C32869DC6F001A2F51"
-            BuildableName = "IntegrationExample.app"
-            BlueprintName = "IntegrationExample"
-            ReferencedContainer = "container:IntegrationExample.xcodeproj">
+            BlueprintIdentifier = "343251192C4DD5C100A8C0DE"
+            BuildableName = "SimpleAdTest.app"
+            BlueprintName = "SimpleAdTest"
+            ReferencedContainer = "container:SimpleAdTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -61,10 +85,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "110ED4C32869DC6F001A2F51"
-            BuildableName = "IntegrationExample.app"
-            BlueprintName = "IntegrationExample"
-            ReferencedContainer = "container:IntegrationExample.xcodeproj">
+            BlueprintIdentifier = "343251192C4DD5C100A8C0DE"
+            BuildableName = "SimpleAdTest.app"
+            BlueprintName = "SimpleAdTest"
+            ReferencedContainer = "container:SimpleAdTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

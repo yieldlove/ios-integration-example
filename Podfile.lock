@@ -87,7 +87,9 @@ PODS:
   - AATKit/YOC (3.10.8):
     - AATKit/Core
   - AppLovinSDK (13.0.0)
-  - ConfiantSDK (6.1.0)
+  - ConsentViewController (7.7.4):
+    - Down (~> 0.11.0)
+    - SPMobileCore (= 0.0.10)
   - CriteoMRAID (1.0.1)
   - CriteoPublisherSdk (6.1.2):
     - CriteoMRAID (~> 1.0.1)
@@ -210,6 +212,7 @@ PODS:
     - smaato-ios-sdk/Modules/RewardedAds
     - smaato-ios-sdk/Modules/Video
   - Smart-Display-SDK (7.24.1)
+  - SPMobileCore (0.0.10)
   - TappxSDK (4.1.8):
     - TappxSDK/TappxFramework (= 4.1.8)
   - TappxSDK/OMSDK_Tappx (4.1.8)
@@ -217,30 +220,29 @@ PODS:
     - TappxSDK/OMSDK_Tappx
   - UnityAds (4.12.2)
   - VungleAds (7.4.1)
-  - YieldloveAdIntegration/Confiant (9.9.0):
-    - ConfiantSDK
-    - YieldloveAdIntegration/Core
-  - YieldloveAdIntegration/Core (9.9.0):
+  - YieldloveAdIntegration/Core (9.10.0):
     - Google-Mobile-Ads-SDK
     - PrebidMobile (= 2.2.3)
     - YieldloveExternalConfiguration (= 0.23.0)
-  - YieldloveAdIntegration/Gravite (9.9.0):
-    - AATKit
+  - YieldloveAdIntegration/Gravite (9.10.0):
+    - AATKit/Core
     - YieldloveAdIntegration/Core
+  - YieldloveConsent (6.5.0):
+    - ConsentViewController
+    - YieldloveExternalConfiguration (= 0.23.0)
   - YieldloveExternalConfiguration (0.23.0):
     - PromiseKit (~> 8)
 
 DEPENDENCIES:
   - AATKit (= 3.10.8)
-  - YieldloveAdIntegration/Confiant (from `https://slabs-yieldlove-ad-integration.s3.eu-central-1.amazonaws.com/ios/YieldloveAdIntegration.podspec`)
-  - YieldloveAdIntegration/Gravite (from `https://slabs-yieldlove-ad-integration.s3.eu-central-1.amazonaws.com/ios/YieldloveAdIntegration.podspec`)
+  - YieldloveAdIntegration/Gravite (= 9.10.0)
+  - YieldloveConsent (= 6.5.0)
 
 SPEC REPOS:
-  https://cdn.confiant-integrations.net/backend-integrations/in-app/releases/ios/podspecs.git:
-    - ConfiantSDK
   trunk:
     - AATKit
     - AppLovinSDK
+    - ConsentViewController
     - CriteoMRAID
     - CriteoPublisherSdk
     - FBAudienceNetwork
@@ -259,19 +261,18 @@ SPEC REPOS:
     - RTBSDK
     - smaato-ios-sdk
     - Smart-Display-SDK
+    - SPMobileCore
     - TappxSDK
     - UnityAds
     - VungleAds
+    - YieldloveAdIntegration
+    - YieldloveConsent
     - YieldloveExternalConfiguration
-
-EXTERNAL SOURCES:
-  YieldloveAdIntegration:
-    :podspec: https://slabs-yieldlove-ad-integration.s3.eu-central-1.amazonaws.com/ios/YieldloveAdIntegration.podspec
 
 SPEC CHECKSUMS:
   AATKit: 4c2e0561386b78f56d8e4ee82e5bd0789f8a1ebc
   AppLovinSDK: c0ecb434df24008b6ecdd7f1e5b8587bc45ff381
-  ConfiantSDK: 35d44082fbf6751cd230a7650392a5ba0a04023d
+  ConsentViewController: 98443d5caad41a60fc8ac68dbac6465e6ba86323
   CriteoMRAID: a037bee17b929a8bede8a07279e01a269cd85210
   CriteoPublisherSdk: 710001048da8bde09116fc9812c879d4cdfcd480
   FBAudienceNetwork: 2457a89b45e2596241fd81b0c2fd8cb6f6053869
@@ -290,12 +291,14 @@ SPEC CHECKSUMS:
   RTBSDK: 653cd21044c64368789017ea758a50be5d3df67a
   smaato-ios-sdk: c69bafd48a81d8ccf7c892818eb970320a495954
   Smart-Display-SDK: e47d4105a6a8776e9c3190c936ffa495f3bec872
+  SPMobileCore: 758462ee57240e185eca34502cc9dba99a10e46b
   TappxSDK: 7ce8940ba5418b9d4452aacd0b6a797a8d7c36ad
   UnityAds: f746f4baac748fcf8b70f0d70c816f6316808d3e
   VungleAds: 97140121d0b909891eb217d1c102a194601da607
-  YieldloveAdIntegration: 10c173a7e8edfb4b675f05e6cf62beb46ae8b642
+  YieldloveAdIntegration: 44c54fda54973b5be48dc1ff31880a135b317819
+  YieldloveConsent: da2bc0406c173a66e6d1d83c9d0b93c02ee6f10a
   YieldloveExternalConfiguration: 37769e82b0eb33ef229df23f2524b4cb646fb9c9
 
-PODFILE CHECKSUM: d19972281ffa9fb0997e078a78ce6fa47332dd7f
+PODFILE CHECKSUM: cb4a256dc1341ad7569005a460c1703db4a9ffdf
 
 COCOAPODS: 1.16.2
