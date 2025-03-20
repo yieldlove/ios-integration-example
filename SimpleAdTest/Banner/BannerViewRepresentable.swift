@@ -8,7 +8,6 @@
 import Foundation
 import SwiftUI
 import YieldloveAdIntegration
-import YieldloveExternalConfiguration
 
 
 struct BannerViewControllerRepresentable: UIViewControllerRepresentable {

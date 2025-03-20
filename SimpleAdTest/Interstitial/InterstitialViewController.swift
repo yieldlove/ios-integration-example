@@ -8,7 +8,6 @@
 import Foundation
 import UIKit
 import YieldloveAdIntegration
-import YieldloveConsent
 
 class InterstitialViewController : UIViewController{
     override func viewDidAppear(_ animated: Bool) {

@@ -7,7 +7,7 @@
 
 import Foundation
 import SwiftUI
-import YieldloveConsent
+import YieldloveAdIntegration
 
 struct PrivacyManagerView : UIViewControllerRepresentable {
     

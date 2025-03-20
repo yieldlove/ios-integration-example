@@ -8,7 +8,6 @@
 import SwiftUI
 import SwiftData
 import YieldloveAdIntegration
-import YieldloveConsent
 
 @main
 struct SimpleAdTestApp: App {

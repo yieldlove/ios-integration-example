@@ -7,7 +7,7 @@
 
 import SwiftUI
 import SwiftData
-import YieldloveConsent
+import YieldloveAdIntegration
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
