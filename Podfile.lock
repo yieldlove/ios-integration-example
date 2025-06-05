@@ -87,7 +87,7 @@ PODS:
   - AATKit/YOC (3.12.0):
     - AATKit/Core
   - AppLovinSDK (13.0.1)
-  - ConsentViewController (7.7.7):
+  - ConsentViewController (7.7.8):
     - Down (~> 0.11.0)
     - SPMobileCore (= 0.0.11)
   - CriteoMRAID (1.0.1)
@@ -102,7 +102,7 @@ PODS:
   - GoogleMobileAdsMediationFacebook (6.15.2.0):
     - FBAudienceNetwork (= 6.15.2)
     - Google-Mobile-Ads-SDK (~> 11.0)
-  - GoogleUserMessagingPlatform (2.7.0)
+  - GoogleUserMessagingPlatform (3.0.0)
   - InMobiSDK (10.8.0)
   - IronSourceSDK (8.3.0.0)
   - MintegralAdSDK/BannerAd (7.7.3):
@@ -214,14 +214,14 @@ PODS:
     - TappxSDK/OMSDK_Tappx
   - UnityAds (4.12.4)
   - VungleAds (7.4.2)
-  - YieldloveAdIntegration/Consent (10.0.0):
-    - ConsentViewController (= 7.7.7)
+  - YieldloveAdIntegration/Consent (10.1.0):
+    - ConsentViewController (~> 7.7.7)
     - YieldloveAdIntegration/Core
-  - YieldloveAdIntegration/Core (10.0.0):
+  - YieldloveAdIntegration/Core (10.1.0):
     - Google-Mobile-Ads-SDK (~> 11)
     - PrebidMobile (~> 2.3.1)
     - PromiseKit (~> 8)
-  - YieldloveAdIntegration/Gravite (10.0.0):
+  - YieldloveAdIntegration/Gravite (10.1.0):
     - AATKit/Core
     - YieldloveAdIntegration/Core
 
@@ -261,13 +261,13 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AATKit: 80249933da3441731d7739b74b3dc8e2cb808b8a
   AppLovinSDK: fdae6a4361c9c9b09f8d7d18ede792368221d987
-  ConsentViewController: 29ccab511234de003057f3082d240c76bd896119
+  ConsentViewController: ac0feae5245788d1882f81ed818e97546c7e351b
   CriteoMRAID: a037bee17b929a8bede8a07279e01a269cd85210
   CriteoPublisherSdk: 710001048da8bde09116fc9812c879d4cdfcd480
   FBAudienceNetwork: 2457a89b45e2596241fd81b0c2fd8cb6f6053869
   Google-Mobile-Ads-SDK: 3a76704456669fbed2057efc8bdb99050ad0e3fb
   GoogleMobileAdsMediationFacebook: 9308a6fea5d2a41a935119378a56b1b2e9624415
-  GoogleUserMessagingPlatform: a8b56893477f67212fbc8411c139e61d463349f5
+  GoogleUserMessagingPlatform: f8d0cdad3ca835406755d0a69aa634f00e76d576
   InMobiSDK: 0cfb1a1eb5112fa0236ae1fab549e31fb96c9566
   IronSourceSDK: 2dbbc8b9d20cbc4a60901e07e0aa5f3bf6a15d9a
   MintegralAdSDK: 217cca20529055c8791c82985dd7a74864e49fd0
@@ -283,8 +283,8 @@ SPEC CHECKSUMS:
   TappxSDK: 08461fc35f3671b9e60ad87c047ee5890f0252cc
   UnityAds: df29459d94ca7c0676cdd9ba96ef6420670ffbfa
   VungleAds: d7cf66a6dfd390a583ea2b2cfb9af1043b686e58
-  YieldloveAdIntegration: f1585d09be6c126c0fb6131c01308db23bae6b9c
+  YieldloveAdIntegration: 6040b86658f7bbf0ef021deedd068b720d820445
 
-PODFILE CHECKSUM: 55e2f1c57a33d5ef0f5767b804157fa513e7c236
+PODFILE CHECKSUM: b6b731847f9212073c4a7c1b16ad7620179d2540
 
 COCOAPODS: 1.16.2

@@ -18,16 +18,16 @@ struct SimpleAdTestApp: App {
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
         
         Yieldlove.setup(appName: "appDfpTest")
-        Yieldlove.instance.enableDebug(isEnabled: true)
-        // Yieldlove.instance.developerModeEnabled = true
+        Yieldlove.enableDebugMode()
+        Yieldlove.enableInspectionMode()
 
         // Confiant
-        ConfiantLoader.shared.enableTestMode()
-        ConfiantLoader.shared.initialize(confiantPropertyId: "", enableReload: true){ success in
-            if success {
-            } else {
-            }
-        }
+//        ConfiantLoader.shared.enableTestMode()
+//        ConfiantLoader.shared.initialize(confiantPropertyId: "", enableReload: true){ success in
+//            if success {
+//            } else {
+//            }
+//        }
         
         // Gravite
 //        GraviteLoader.shared.enableDebugMode()

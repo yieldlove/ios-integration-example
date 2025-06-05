@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2300527642C6E61861D45D22 /* Pods_SimpleAdTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A75B617AB439B32ECC542D /* Pods_SimpleAdTest.framework */; };
 		3432511E2C4DD5C100A8C0DE /* SimpleAdTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3432511D2C4DD5C100A8C0DE /* SimpleAdTestApp.swift */; };
 		343251202C4DD5C100A8C0DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3432511F2C4DD5C100A8C0DE /* ContentView.swift */; };
 		343251242C4DD5C300A8C0DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 343251232C4DD5C300A8C0DE /* Assets.xcassets */; };
@@ -23,7 +24,6 @@
 		347B8C0E2C78268D00270869 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347B8C0D2C78268D00270869 /* Item.swift */; };
 		348F3BEA2C57392300168E67 /* InterstitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348F3BE92C57392300168E67 /* InterstitialView.swift */; };
 		348F3BEC2C573D2300168E67 /* InterstitialViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348F3BEB2C573D2300168E67 /* InterstitialViewRepresentable.swift */; };
-		E672907E24B6678B6F942F64 /* Pods_SimpleAdTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A915116BA55D4FB8D4BBB8CE /* Pods_SimpleAdTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +40,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		228560C0DD50EC00CA1BEF87 /* Pods-SimpleAdTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleAdTest.release.xcconfig"; path = "Target Support Files/Pods-SimpleAdTest/Pods-SimpleAdTest.release.xcconfig"; sourceTree = "<group>"; };
 		3432511A2C4DD5C100A8C0DE /* SimpleAdTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleAdTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3432511D2C4DD5C100A8C0DE /* SimpleAdTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAdTestApp.swift; sourceTree = "<group>"; };
 		3432511F2C4DD5C100A8C0DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,9 +62,8 @@
 		347B8C0D2C78268D00270869 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		348F3BE92C57392300168E67 /* InterstitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialView.swift; sourceTree = "<group>"; };
 		348F3BEB2C573D2300168E67 /* InterstitialViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialViewRepresentable.swift; sourceTree = "<group>"; };
-		6339C669386CFEBE61B6E615 /* Pods-SimpleAdTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleAdTest.release.xcconfig"; path = "Target Support Files/Pods-SimpleAdTest/Pods-SimpleAdTest.release.xcconfig"; sourceTree = "<group>"; };
-		7F9A1BFF102CC7C89DF54E49 /* Pods-SimpleAdTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleAdTest.debug.xcconfig"; path = "Target Support Files/Pods-SimpleAdTest/Pods-SimpleAdTest.debug.xcconfig"; sourceTree = "<group>"; };
-		A915116BA55D4FB8D4BBB8CE /* Pods_SimpleAdTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleAdTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		423BDC294C35B4ACA145C50C /* Pods-SimpleAdTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleAdTest.debug.xcconfig"; path = "Target Support Files/Pods-SimpleAdTest/Pods-SimpleAdTest.debug.xcconfig"; sourceTree = "<group>"; };
+		B6A75B617AB439B32ECC542D /* Pods_SimpleAdTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleAdTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E672907E24B6678B6F942F64 /* Pods_SimpleAdTest.framework in Frameworks */,
+				2300527642C6E61861D45D22 /* Pods_SimpleAdTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +87,7 @@
 				3432513A2C4DD5C300A8C0DE /* SimpleAdTestUITests */,
 				3432511B2C4DD5C100A8C0DE /* Products */,
 				CCA557D98976A9F17E31677B /* Pods */,
-				86F5F35E50365B917B05D042 /* Frameworks */,
+				476CCD86B72070CAA9AF8048 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,10 +179,10 @@
 			path = Interstitial;
 			sourceTree = "<group>";
 		};
-		86F5F35E50365B917B05D042 /* Frameworks */ = {
+		476CCD86B72070CAA9AF8048 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A915116BA55D4FB8D4BBB8CE /* Pods_SimpleAdTest.framework */,
+				B6A75B617AB439B32ECC542D /* Pods_SimpleAdTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,8 +190,8 @@
 		CCA557D98976A9F17E31677B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7F9A1BFF102CC7C89DF54E49 /* Pods-SimpleAdTest.debug.xcconfig */,
-				6339C669386CFEBE61B6E615 /* Pods-SimpleAdTest.release.xcconfig */,
+				423BDC294C35B4ACA145C50C /* Pods-SimpleAdTest.debug.xcconfig */,
+				228560C0DD50EC00CA1BEF87 /* Pods-SimpleAdTest.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -203,13 +203,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 343251412C4DD5C300A8C0DE /* Build configuration list for PBXNativeTarget "SimpleAdTest" */;
 			buildPhases = (
-				9CB3B92E2135EAF9C3B3546A /* [CP] Check Pods Manifest.lock */,
+				319F8119D4C0CE1F6FBF6803 /* [CP] Check Pods Manifest.lock */,
 				343251162C4DD5C100A8C0DE /* Sources */,
 				343251172C4DD5C100A8C0DE /* Frameworks */,
 				343251182C4DD5C100A8C0DE /* Resources */,
 				347B8C0C2C78240E00270869 /* Embed Frameworks */,
-				01EC7004212AB83ED4C76489 /* [CP] Embed Pods Frameworks */,
-				934B0A54FE040FE7AB2019FB /* [CP] Copy Pods Resources */,
+				859FCA085043CA271E7C258B /* [CP] Embed Pods Frameworks */,
+				070492725990D43713695475 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,24 +267,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		01EC7004212AB83ED4C76489 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SimpleAdTest/Pods-SimpleAdTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SimpleAdTest/Pods-SimpleAdTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimpleAdTest/Pods-SimpleAdTest-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		934B0A54FE040FE7AB2019FB /* [CP] Copy Pods Resources */ = {
+		070492725990D43713695475 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -301,7 +284,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimpleAdTest/Pods-SimpleAdTest-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9CB3B92E2135EAF9C3B3546A /* [CP] Check Pods Manifest.lock */ = {
+		319F8119D4C0CE1F6FBF6803 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,6 +304,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		859FCA085043CA271E7C258B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleAdTest/Pods-SimpleAdTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleAdTest/Pods-SimpleAdTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimpleAdTest/Pods-SimpleAdTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -467,7 +467,7 @@
 		};
 		343251422C4DD5C300A8C0DE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F9A1BFF102CC7C89DF54E49 /* Pods-SimpleAdTest.debug.xcconfig */;
+			baseConfigurationReference = 423BDC294C35B4ACA145C50C /* Pods-SimpleAdTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -519,7 +519,7 @@
 		};
 		343251432C4DD5C300A8C0DE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6339C669386CFEBE61B6E615 /* Pods-SimpleAdTest.release.xcconfig */;
+			baseConfigurationReference = 228560C0DD50EC00CA1BEF87 /* Pods-SimpleAdTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
